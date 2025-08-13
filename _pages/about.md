@@ -7,7 +7,7 @@ redirect_from:
 
 /about.html
 
-I am a first-year master's student in Computer Technology at Tsinghua University, Shenzhen International Graduate School. I am fortunate to be supervised by Prof. Yansong Tang in the IVG@SZ group. Before that, I received my Honor's Degree of Bachelor of Engineering in Computer Science and Technology from the University of Electronic Science and Technology of China (UESTC) in 2024.
+I am a first-year master's student in Computer Technology at Tsinghua University, Shenzhen International Graduate School. I am fortunate to be supervised by Prof. Chun Yuan in the CVML group. Before that, I received my Honor's Degree of Bachelor of Engineering in Computer Science and Technology from the University of Electronic Science and Technology of China (UESTC) in 2024.
 
 My research interests primarily lie in Computer Vision and Multimodal Learning, including Large Language Models, Segmentation, and Tracking.
 
