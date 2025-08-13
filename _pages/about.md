@@ -19,7 +19,7 @@ Email / Google Scholar / GitHub
 
 * <span style="font-size: smaller;">May 2025: One paper on weakly-supervised camouflaged object detection has been submitted to AAAI-2026.</span>
 
-* <span style="font-size: smaller;">Mar 2025: Started an algorithm internship at Huawei Noah's Ark Lab, focusing on LLM inference compression.</span>
+<!-- * <span style="font-size: smaller;">Mar 2025: Started an algorithm internship at Huawei Noah's Ark Lab, focusing on LLM inference compression.</span> -->
 
 * <span style="font-size: smaller;">Sep 2024: One paper on cross-modal person re-identification was accepted by ICME-2025 (CCF-B, Oral).</span>
 
@@ -33,7 +33,7 @@ Email / Google Scholar / GitHub
 
 <!-- Long2Short -->
 
-<tr>
+<!-- <tr>
 <td style="padding:20px;width:30%;max-width:30%" align="center">
 <img style="width:100%;max-width:100%" src="https://www.google.com/search?q=https://placehold.co/400x250/EFEFEF/333333%3Ftext%3DLong2Short" alt="Long2Short Project Image">
 </td>
@@ -46,7 +46,7 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <br>
 <p>To address the redundancy in Chain-of-Thought (CoT) reasoning, I explored various methods for inference acceleration. I proposed a logits-based loss masking algorithm and an orthogonal reward reconstruction algorithm, which improved inference efficiency and training stability without compromising performance.</p>
 </td>
-</tr>
+</tr> -->
 
 <!-- FCL-COD -->
 
