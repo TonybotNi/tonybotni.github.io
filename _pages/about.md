@@ -1,11 +1,11 @@
+---
 permalink: /
 title: "👋 About Me"
 author_profile: true
 redirect_from:
-
-/about/
-
-/about.html
+  - /about/
+  - /about.html
+---
 
 I am a first-year master's student in Computer Technology at Tsinghua University, Shenzhen International Graduate School. I am fortunate to be supervised by Prof. Chun Yuan in the CVML group. Before that, I received my Honor's Degree of Bachelor of Engineering in Computer Science and Technology from the University of Electronic Science and Technology of China (UESTC) in 2024.
 
