@@ -1,56 +1,119 @@
----
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "👋 About Me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
+redirect_from:
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+/about/
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+/about.html
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am a first-year master's student in Computer Technology at Tsinghua University, Shenzhen International Graduate School. I am fortunate to be supervised by Prof. Yansong Tang in the IVG@SZ group. Before that, I received my Honor's Degree of Bachelor of Engineering in Computer Science and Technology from the University of Electronic Science and Technology of China (UESTC) in 2024.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My research interests primarily lie in Computer Vision and Multimodal Learning, including Large Language Models, Segmentation, and Tracking.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+Email / Google Scholar / GitHub
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+✨ News
+<span style="font-size: smaller;">May 2025: One paper on weakly-supervised camouflaged object detection has been submitted to AAAI-2026.</span>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<span style="font-size: smaller;">Mar 2025: Started an algorithm internship at Huawei Noah's Ark Lab, focusing on LLM inference compression.</span>
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<span style="font-size: smaller;">Sep 2024: One paper on zero-shot referring image segmentation was accepted by AAAI-2025 (CCF-A).</span>
 
-**Markdown generator**
+<span style="font-size: smaller;">Sep 2024: One paper on cross-modal person re-identification was accepted by ICME-2025 (CCF-B, Oral).</span>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+🔬 Research
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<!-- Long2Short -->
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+<tr>
+<td style="padding:20px;width:30%;max-width:30%" align="center">
+<img style="width:100%;max-width:100%" src="https://www.google.com/search?q=https://placehold.co/400x250/EFEFEF/333333%3Ftext%3DLong2Short" alt="Long2Short Project Image">
+</td>
+<td width="75%" valign="center">
+<papertitle>Large Language Model Inference Compression (Long2Short)</papertitle>
+<br>
+Research Project @ <b>Huawei Noah's Ark Lab</b>
+<br>
+<em>Algorithm Intern, Mar 2025 - Jul 2025</em>
+<br>
+<p>To address the redundancy in Chain-of-Thought (CoT) reasoning, I explored various methods for inference acceleration. I proposed a logits-based loss masking algorithm and an orthogonal reward reconstruction algorithm, which improved inference efficiency and training stability without compromising performance.</p>
+</td>
+</tr>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<!-- IteRPrimE -->
+
+<tr>
+<td style="padding:20px;width:30%;max-width:30%" align="center">
+<img style="width:100%;max-width:100%" src="../images/iterprime.png" alt="IteRPrimE Project Image">
+</td>
+<td width="75%" valign="center">
+<papertitle>IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle>
+<br>
+<b>Yuji Wang*</b>, Jingchen Ni*, Yong Liu, Chun Yuan, Yansong Tang
+<br>
+<em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2025
+<br>
+<a href="https://ojs.aaai.org/index.php/AAAI/article/view/32880">[PDF]</a>
+<a href="https://github.com/VoyageWang/IteRPrimE">[Project Page]</a>
+<br>
+<p>As the project lead and co-first author, I proposed the IteRPrimE method, which significantly improves the localization and semantic relationship processing capabilities for zero-shot referring image segmentation by introducing innovative strategies.</p>
+</td>
+</tr>
+
+<!-- FCL-COD -->
+
+<tr>
+<td style="padding:20px;width:30%;max-width:30%" align="center">
+<img style="width:100%;max-width:100%" src="https://www.google.com/search?q=https://placehold.co/400x250/EFEFEF/333333%3Ftext%3DFCL-COD" alt="FCL-COD Project Image">
+</td>
+<td width="75%" valign="center">
+<papertitle>Weakly-Supervised Camouflaged Object Detection via Frequency-aware and Contrastive Learning</papertitle>
+<br>
+<b>Yuji Wang*</b>, et al.
+<br>
+<em>Submitted to AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2026
+<br>
+<p>As the first author, I proposed the FCL-COD framework, which effectively addresses background interference and boundary ambiguity in camouflaged object detection through innovative frequency-aware and gradient-aware contrastive learning mechanisms. The performance surpasses current SOTA models.</p>
+</td>
+</tr>
+
+<!-- SAHSR -->
+
+<tr>
+<td style="padding:20px;width:30%;max-width:30%" align="center">
+<img style="width:100%;max-width:100%" src="https://www.google.com/search?q=https://placehold.co/400x250/EFEFEF/333333%3Ftext%3DSAHSR" alt="SAHSR Project Image">
+</td>
+<td width="75%" valign="center">
+<papertitle>Semantic Alignment and Hard-Sample Retraining Framework for Cross-Modal Person Re-Identification</papertitle>
+<br>
+<b>Yuji Wang*</b>, et al.
+<br>
+<em>IEEE International Conference on Multimedia and Expo (<strong>ICME</strong>)</em>, 2025 (Oral)
+<br>
+<p>As the project lead and first author, I proposed the SAHSR framework to address key challenges in Visible-Infrared Person Re-Identification (VI-ReID), including semantic mismatch and hard-sample discrimination. A patent application for the related work is in progress.</p>
+</td>
+</tr>
+
+</tbody></table>
+
+🏆 Selected Honors and Awards
+National Scholarship, 2022
+
+China "Internet+" College Students' Innovation and Entrepreneurship Competition, National Silver Award, 2022
+
+IEEEXtreme 16.0 Programming Competition, Global Rank 118/2992, 2022
+
+Lanqiao Cup National Competition, Third Prize, 2023
+
+Mathematical Contest in Modeling (MCM), Honorable Mention, 2023
+
+UESTC Outstanding Student Scholarship, 2021, 2022, 2023
+
+UESTC Honor's Degree of Bachelor of Engineering, 2024
+
+👥 Visitors
+<div style="text-align: center;">
+<a href="https://clustrmaps.com/site/1c66m" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=tt&d=SXJmirhTs4ZzElqBB44im0Ge5e4xIAEpNBV_x9oQx68" /></a>
+</div>
