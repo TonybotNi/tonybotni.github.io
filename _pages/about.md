@@ -13,16 +13,22 @@ My research interests primarily lie in Computer Vision and Multimodal Learning, 
 
 Email / Google Scholar / GitHub
 
-✨ News
-<span style="font-size: smaller;">May 2025: One paper on weakly-supervised camouflaged object detection has been submitted to AAAI-2026.</span>
+---
+# ✨ News
+---
 
-<span style="font-size: smaller;">Mar 2025: Started an algorithm internship at Huawei Noah's Ark Lab, focusing on LLM inference compression.</span>
+* <span style="font-size: smaller;">May 2025: One paper on weakly-supervised camouflaged object detection has been submitted to AAAI-2026.</span>
 
-<span style="font-size: smaller;">Sep 2024: One paper on zero-shot referring image segmentation was accepted by AAAI-2025 (CCF-A).</span>
+* <span style="font-size: smaller;">Mar 2025: Started an algorithm internship at Huawei Noah's Ark Lab, focusing on LLM inference compression.</span>
 
-<span style="font-size: smaller;">Sep 2024: One paper on cross-modal person re-identification was accepted by ICME-2025 (CCF-B, Oral).</span>
+* <span style="font-size: smaller;">Sep 2024: One paper on cross-modal person re-identification was accepted by ICME-2025 (CCF-B, Oral).</span>
 
-🔬 Research
+* <span style="font-size: smaller;">Sep 2024: One paper on zero-shot referring image segmentation was accepted by AAAI-2025 (CCF-A).</span>
+
+---
+# 🔬 Research
+---
+
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 <!-- Long2Short -->
@@ -42,26 +48,6 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 </td>
 </tr>
 
-<!-- IteRPrimE -->
-
-<tr>
-<td style="padding:20px;width:30%;max-width:30%" align="center">
-<img style="width:100%;max-width:100%" src="../images/iterprime.png" alt="IteRPrimE Project Image">
-</td>
-<td width="75%" valign="center">
-<papertitle>IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle>
-<br>
-<b>Yuji Wang*</b>, Jingchen Ni*, Yong Liu, Chun Yuan, Yansong Tang
-<br>
-<em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2025
-<br>
-<a href="https://ojs.aaai.org/index.php/AAAI/article/view/32880">[PDF]</a>
-<a href="https://github.com/VoyageWang/IteRPrimE">[Project Page]</a>
-<br>
-<p>As the project lead and co-first author, I proposed the IteRPrimE method, which significantly improves the localization and semantic relationship processing capabilities for zero-shot referring image segmentation by introducing innovative strategies.</p>
-</td>
-</tr>
-
 <!-- FCL-COD -->
 
 <tr>
@@ -71,11 +57,32 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <td width="75%" valign="center">
 <papertitle>Weakly-Supervised Camouflaged Object Detection via Frequency-aware and Contrastive Learning</papertitle>
 <br>
-<b>Yuji Wang*</b>, et al.
+<b>Jingchen Ni*</b>, et al.
 <br>
 <em>Submitted to AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2026
 <br>
 <p>As the first author, I proposed the FCL-COD framework, which effectively addresses background interference and boundary ambiguity in camouflaged object detection through innovative frequency-aware and gradient-aware contrastive learning mechanisms. The performance surpasses current SOTA models.</p>
+</td>
+</tr>
+
+
+<!-- IteRPrimE -->
+
+<tr>
+<td style="padding:20px;width:30%;max-width:30%" align="center">
+<img style="width:100%;max-width:100%" src="../images/iterprime.png" alt="IteRPrimE Project Image">
+</td>
+<td width="75%" valign="center">
+<papertitle>IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle>
+<br>
+Yuji Wang*, <b>Jingchen Ni*</b>, Yong Liu, Chun Yuan, Yansong Tang
+<br>
+<em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2025
+<br>
+<a href="https://ojs.aaai.org/index.php/AAAI/article/view/32880">[PDF]</a>
+<a href="https://github.com/VoyageWang/IteRPrimE">[Project Page]</a>
+<br>
+<p>As the project lead and co-first author, I proposed the IteRPrimE method, which significantly improves the localization and semantic relationship processing capabilities for zero-shot referring image segmentation by introducing innovative strategies.</p>
 </td>
 </tr>
 
@@ -88,7 +95,7 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <td width="75%" valign="center">
 <papertitle>Semantic Alignment and Hard-Sample Retraining Framework for Cross-Modal Person Re-Identification</papertitle>
 <br>
-<b>Yuji Wang*</b>, et al.
+<b>Jingchen Ni*</b>, Keyu Lyu, et al.
 <br>
 <em>IEEE International Conference on Multimedia and Expo (<strong>ICME</strong>)</em>, 2025 (Oral)
 <br>
@@ -97,21 +104,23 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 </tr>
 
 </tbody></table>
+---
+# 🏆 Selected Honors and Awards
+--- 
 
-🏆 Selected Honors and Awards
-National Scholarship, 2022
+* National Scholarship, 2022
 
-China "Internet+" College Students' Innovation and Entrepreneurship Competition, National Silver Award, 2022
+* China "Internet+" College Students' Innovation and Entrepreneurship Competition, National Silver Award, 2022
 
-IEEEXtreme 16.0 Programming Competition, Global Rank 118/2992, 2022
+* IEEEXtreme 16.0 Programming Competition, Global Rank 118/2992, 2022
 
-Lanqiao Cup National Competition, Third Prize, 2023
+* Lanqiao Cup National Competition, Third Prize, 2023
 
-Mathematical Contest in Modeling (MCM), Honorable Mention, 2023
+* Mathematical Contest in Modeling (MCM), Honorable Mention, 2023
 
-UESTC Outstanding Student Scholarship, 2021, 2022, 2023
+* UESTC Outstanding Student Scholarship, 2021, 2022, 2023
 
-UESTC Honor's Degree of Bachelor of Engineering, 2024
+* UESTC Honor's Degree of Bachelor of Engineering, 2024
 
 👥 Visitors
 <div style="text-align: center;">
