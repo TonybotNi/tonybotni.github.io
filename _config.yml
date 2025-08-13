@@ -21,7 +21,7 @@ repository               : "tonybotni/tonybotni.github.io" # e.g. "academichub/a
 #                Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "float cat4.png" # path to your avatar image
+  avatar           : "float cat4.jpg" # path to your avatar image
   name             : "Jingchen Ni"
   bio              : "Master's student at Tsinghua University. My research interests include Computer Vision and Large Language Model."
   location         : "Beijing, China"
