@@ -73,7 +73,8 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <img style="width:100%;max-width:100%" src="../images/iterprime.png" alt="IteRPrimE Project Image">
 </td>
 <td width="75%" valign="center">
-<papertitle>IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle>
+<!-- <papertitle>IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle> -->
+<papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle>
 <br>
 Yuji Wang*, <b>Jingchen Ni*</b>, Yong Liu, Chun Yuan, Yansong Tang
 <br>
@@ -93,7 +94,7 @@ Yuji Wang*, <b>Jingchen Ni*</b>, Yong Liu, Chun Yuan, Yansong Tang
 <img style="width:100%;max-width:100%" src="../images/SAHSR.png" alt="SAHSR Project Image">
 </td>
 <td width="75%" valign="center">
-<papertitle>Semantic Alignment and Hard-Sample Retraining Framework for Cross-Modal Person Re-Identification</papertitle>
+<papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">Semantic Alignment and Hard-Sample Retraining Framework for Cross-Modal Person Re-Identification</papertitle>
 <br>
 <b>Jingchen Ni*</b>, Keyu Lyu, et al.
 <br>
