@@ -90,7 +90,7 @@ Yuji Wang*, <b>Jingchen Ni*</b>, Yong Liu, Chun Yuan, Yansong Tang
 
 <tr>
 <td style="padding:20px;width:30%;max-width:30%" align="center">
-<img style="width:100%;max-width:100%" src="https://www.google.com/search?q=https://placehold.co/400x250/EFEFEF/333333%3Ftext%3DSAHSR" alt="SAHSR Project Image">
+<img style="width:100%;max-width:100%" src="../images/SAHSR.png" alt="SAHSR Project Image">
 </td>
 <td width="75%" valign="center">
 <papertitle>Semantic Alignment and Hard-Sample Retraining Framework for Cross-Modal Person Re-Identification</papertitle>
