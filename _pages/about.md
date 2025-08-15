@@ -110,17 +110,11 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 --- 
 
 * National Scholarship, 2022
-
 * China "Internet+" College Students' Innovation and Entrepreneurship Competition, National Silver Award, 2022
-
 * IEEEXtreme 16.0 Programming Competition, Global Rank 118/2992, 2022
-
 * Lanqiao Cup National Competition, Third Prize, 2023
-
 * Mathematical Contest in Modeling (MCM), Honorable Mention, 2023
-
 * UESTC Outstanding Student Scholarship, 2021, 2022, 2023
-
 * UESTC Honor's Degree of Bachelor of Engineering, 2024
 
 # 👥 Visitors
