@@ -74,9 +74,9 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 </td>
 <td width="75%" valign="center">
 <!-- <papertitle>IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle> -->
-<papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1.2em;">IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle>
+<papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1.3em;">IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle>
 <br>
-<span style="font-family: 'Times New Roman', Times, serif;">Yuji Wang*, <b>Jingchen Ni*</b>, Yong Liu, Chun Yuan, Yansong Tang</span>
+<span style="font-family: 'Times New Roman', Times, serif; font-size: 1.1em;">Yuji Wang*, <b>Jingchen Ni*</b>, Yong Liu, Chun Yuan, Yansong Tang</span>
 <br>
 <em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2025
 <br>
@@ -94,9 +94,9 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <img style="width:100%;max-width:100%" src="../images/SAHSR.png" alt="SAHSR Project Image">
 </td>
 <td width="75%" valign="center">
-<papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1.2em;">Semantic Alignment and Hard-Sample Retraining Framework for Cross-Modal Person Re-Identification</papertitle>
+<papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1.3em;">Semantic Alignment and Hard-Sample Retraining Framework for Cross-Modal Person Re-Identification</papertitle>
 <br>
-<span style="font-family: 'Times New Roman', Times, serif;"><b>Jingchen Ni*</b>, Keyu Lyu*, Yu Guo, Chun Yuan</span>
+<span style="font-family: 'Times New Roman', Times, serif; font-size: 1.1em;"><b>Jingchen Ni*</b>, Keyu Lyu*, Yu Guo, Chun Yuan</span>
 <br>
 <em>IEEE International Conference on Multimedia and Expo (<strong>ICME</strong>)</em>, 2025 (Oral)
 <br>
