@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year master's student in Computer Technology at Tsinghua University, Shenzhen International Graduate School. I am fortunate to be supervised by Prof. Chun Yuan in the CVML group. Before that, I received my Honor's Degree of Bachelor of Engineering in Computer Science and Technology from the University of Electronic Science and Technology of China (UESTC) in 2024.
+I am a first-year master's student in Computer Technology at Tsinghua University, Shenzhen International Graduate School. I am fortunate to be supervised by Prof. [Chun Yuan](https://www.sigs.tsinghua.edu.cn/yc2/main.psp) in the CVML group. Before that, I obtained my Honors Bachelor’s degree in Computer Science and Technology from the Yingcai Honors College at the University of Electronic Science and Technology of China in 2024.
 
 My research interests primarily lie in Computer Vision and Multimodal Learning, including Large Language Models, Segmentation, and Tracking.
 
@@ -21,9 +21,9 @@ Email / Google Scholar / GitHub
 
 <!-- * <span style="font-size: smaller;">Mar 2025: Started an algorithm internship at Huawei Noah's Ark Lab, focusing on LLM inference compression.</span> -->
 
-* <span style="font-size: smaller;">Sep 2024: One paper on cross-modal person re-identification was accepted by ICME-2025 (CCF-B, Oral).</span>
+* <span style="font-size: smaller;">Mar. 2025: One paper on cross-modal person re-identification was accepted by [ICME-2025](https://2025.ieeeicme.org/) (CCF-B, Oral).</span>
 
-* <span style="font-size: smaller;">Sep 2024: One paper on zero-shot referring image segmentation was accepted by AAAI-2025 (CCF-A).</span>
+* <span style="font-size: smaller;">Dec. 2024: One paper on zero-shot referring image segmentation was accepted by [AAAI-2025](https://aaai.org/conference/aaai/aaai-25/) (CCF-A).</span>
 
 ---
 # 🔬 Research
@@ -76,7 +76,7 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <!-- <papertitle>IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle> -->
 <papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1.2em;">IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle>
 <br>
-Yuji Wang*, <b>Jingchen Ni*</b>, Yong Liu, Chun Yuan, Yansong Tang
+<span style="font-family: 'Times New Roman', Times, serif;">Yuji Wang*, <b>Jingchen Ni*</b>, Yong Liu, Chun Yuan, Yansong Tang</span>
 <br>
 <em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2025
 <br>
@@ -96,7 +96,7 @@ Yuji Wang*, <b>Jingchen Ni*</b>, Yong Liu, Chun Yuan, Yansong Tang
 <td width="75%" valign="center">
 <papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1.2em;">Semantic Alignment and Hard-Sample Retraining Framework for Cross-Modal Person Re-Identification</papertitle>
 <br>
-<b>Jingchen Ni*</b>, Keyu Lyu, et al.
+<span style="font-family: 'Times New Roman', Times, serif;"><b>Jingchen Ni*</b>, Keyu Lyu*, Yu Guo, Chun Yuan</span>
 <br>
 <em>IEEE International Conference on Multimedia and Expo (<strong>ICME</strong>)</em>, 2025 (Oral)
 <br>
