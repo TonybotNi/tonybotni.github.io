@@ -17,7 +17,7 @@ Email / Google Scholar / GitHub
 # ✨ News
 ---
 
-* <span style="font-size: smaller;">May 2025: One paper on weakly-supervised camouflaged object detection has been submitted to AAAI-2026.</span>
+<!-- * <span style="font-size: smaller;">May 2025: One paper on weakly-supervised camouflaged object detection has been submitted to AAAI-2026.</span> -->
 
 <!-- * <span style="font-size: smaller;">Mar 2025: Started an algorithm internship at Huawei Noah's Ark Lab, focusing on LLM inference compression.</span> -->
 
@@ -50,7 +50,7 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 
 <!-- FCL-COD -->
 
-<tr>
+<!-- <tr>
 <td style="padding:20px;width:30%;max-width:30%" align="center">
 <img style="width:100%;max-width:100%" src="https://www.google.com/search?q=https://placehold.co/400x250/EFEFEF/333333%3Ftext%3DFCL-COD" alt="FCL-COD Project Image">
 </td>
@@ -63,7 +63,7 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <br>
 <p>As the first author, I proposed the FCL-COD framework, which effectively addresses background interference and boundary ambiguity in camouflaged object detection through innovative frequency-aware and gradient-aware contrastive learning mechanisms. The performance surpasses current SOTA models.</p>
 </td>
-</tr>
+</tr> -->
 
 
 <!-- IteRPrimE -->
