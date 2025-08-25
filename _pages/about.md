@@ -9,9 +9,7 @@ redirect_from:
 
 I am a first-year master's student in Computer Technology at Tsinghua University, Shenzhen International Graduate School. I am fortunate to be supervised by Prof. [Chun Yuan](https://www.sigs.tsinghua.edu.cn/yc2/main.psp) in the CVML group. Before that, I obtained my Honors Bachelor’s degree in Computer Science and Technology from the Yingcai Honors College at the University of Electronic Science and Technology of China in 2024.
 
-My research interests primarily lie in Computer Vision and Multimodal Learning, including Large Language Models, Segmentation, and Tracking.
-
-Email / Google Scholar / GitHub
+My research interests span Computer Vision and Multimodal Learning, particularly cross-modal tasks and visual understanding.
 
 ---
 # ✨ News
@@ -116,6 +114,7 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 * UESTC Outstanding Student Scholarship, 2021, 2022, 2023
 * UESTC Honor's Degree of Bachelor of Engineering, 2024
 
+---
 # 👥 Visitors
 
 <div style="text-align: center;">

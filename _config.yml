@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Jingchen Ni"
 title_separator          : "-"
 name                     : &name "Jingchen Ni"
-description              : &description "A master's student at Tsinghua University with interests in Computer Vision and Large Language Model."
+description              : &description "M.S. Student, Tsinghua University"
 url                      : https://tonybotni.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tonybotni/tonybotni.github.io" # e.g. "academichub/academichub.github.io"
@@ -211,18 +211,18 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+  # teaching:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # publications:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # talks:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
