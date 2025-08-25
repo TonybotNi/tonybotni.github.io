@@ -121,4 +121,6 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <a href="https://clustrmaps.com/site/1c66m" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=tt&d=SXJmirhTs4ZzElqBB44im0Ge5e4xIAEpNBV_x9oQx68" /></a>
 </div> -->
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=YcEGNdlapjfGw9-NBcj1CQW4sNbZoUSTRXAL3tOqhSM"></script>
+<div class="map-container">
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=YcEGNdlapjfGw9-NBcj1CQW4sNbZoUSTRXAL3tOqhSM"></script>
+</div>
