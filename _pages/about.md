@@ -119,6 +119,9 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <!-- <papertitle>IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle> -->
 <papertitle style="font-family: 'SimHei', Times, serif; font-weight: bold; font-size: 1.3em;">ZotLink: MCP Server for Zotero Connector</papertitle>
 <br>
+<div id="zotlink-stars" style="margin-top:6px;font-size:0.95em;">
+  ⭐ Stars: <span data-owner="TonybotNi" data-repo="ZotLink">—</span>
+</div>
 <a href="https://github.com/TonybotNi/ZotLink">[Project Page]</a>
 <br>
 <p>Production‑ready MCP server for Zotero to save open preprints (arXiv, CVF, bio/med/chemRxiv) with rich metadata and smart PDF attachments — with upcoming support for publisher databases (Nature, Science, IEEE Xplore, Springer).</p>
