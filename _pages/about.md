@@ -106,27 +106,55 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 ---
 # 🏗️ Project
 --- 
-
-<!-- ZotLink -->
-
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+<!-- ZotLink -->
 <tr>
-<td style="padding:20px;width:30%;max-width:30%" align="center">
-<img style="width:100%;max-width:100%" src="../images/ZotLink_cropped.jpg" alt="ZotLink Project Image">
-</td>
-<td width="75%" valign="center">
-<!-- <papertitle>IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle> -->
-<papertitle style="font-family: 'SimHei', Times, serif; font-weight: bold; font-size: 1.3em;">ZotLink: MCP Server for Zotero Connector</papertitle>
-<br>
-<div id="zotlink-stars" style="margin-top:6px;font-size:0.95em;">
-  ⭐ Stars: <span data-owner="TonybotNi" data-repo="ZotLink">—</span>
-</div>
-<a href="https://github.com/TonybotNi/ZotLink">[Project Page]</a>
-<br>
-<p>Production‑ready MCP server for Zotero to save open preprints (arXiv, CVF, bio/med/chemRxiv) with rich metadata and smart PDF attachments — with upcoming support for publisher databases (Nature, Science, IEEE Xplore, Springer).</p>
-</td>
+  <td style="padding:20px;width:30%;max-width:30%" align="center">
+    <img style="width:100%;max-width:100%" src="../images/ZotLink_cropped.jpg" alt="ZotLink Project Image">
+  </td>
+  <td width="75%" valign="center">
+    <!-- <papertitle>IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle> -->
+    <papertitle style="font-family: 'SimHei', Times, serif; font-weight: bold; font-size: 1.3em;">ZotLink: MCP Server for Zotero Connector</papertitle>
+    <br>
+
+    <!-- 链接 | 实时星标 -->
+    <a href="https://github.com/TonybotNi/ZotLink" target="_blank" rel="noopener">[Project Page]</a>
+    <span style="margin: 0 6px; color: #888;">|</span>
+    <span id="zotlink-stars" style="font-size: 0.95em;">⭐ Stars: <span data-owner="TonybotNi" data-repo="ZotLink">—</span></span>
+
+    <script>
+    (async () => {
+      const span = document.querySelector('#zotlink-stars span[data-repo]');
+      if (!span) return;
+      const owner = span.getAttribute('data-owner');
+      const repo  = span.getAttribute('data-repo');
+      const url = `https://api.github.com/repos/${owner}/${repo}`;
+
+      // 简单的 1.2k 格式化
+      const fmt = n => n >= 1000 ? (n/1000).toFixed(n % 1000 >= 100 ? 1 : 0) + 'k' : String(n);
+
+      try {
+        const res = await fetch(url, { headers: { 'Accept': 'application/vnd.github+json' }});
+        if (!res.ok) throw new Error('GitHub API error: ' + res.status);
+        const data = await res.json();
+        span.parentElement.innerHTML =
+          `⭐ Stars: <a href="https://github.com/${owner}/${repo}" target="_blank" rel="noopener">${fmt(data.stargazers_count ?? 0)}</a>`;
+      } catch (e) {
+        // 失败兜底：Shields 徽章
+        span.parentElement.innerHTML =
+          `<a href="https://github.com/${owner}/${repo}" target="_blank" rel="noopener">
+             <img src="https://img.shields.io/github/stars/${owner}/${repo}?style=social" alt="GitHub stars">
+           </a>`;
+      }
+    })();
+    </script>
+
+    <br>
+    <p>Production-ready MCP server for Zotero to save open preprints (arXiv, CVF, bio/med/chemRxiv) with rich metadata and smart PDF attachments — with upcoming support for publisher databases (Nature, Science, IEEE Xplore, Springer).</p>
+  </td>
 </tr>
+
 
 </tbody></table>
 
