@@ -102,6 +102,27 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 </tr>
 
 </tbody></table>
+
+---
+# 🏗️ Project
+--- 
+
+<!-- ZotLink -->
+
+<tr>
+<td style="padding:20px;width:30%;max-width:30%" align="center">
+<img style="width:100%;max-width:100%" src="../images/ZotLink_cropped.jpg" alt="ZotLink Project Image">
+</td>
+<td width="75%" valign="center">
+<!-- <papertitle>IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle> -->
+<papertitle style="font-family: 'SimHei', Times, serif; font-weight: bold; font-size: 1.3em;">ZotLink: MCP Server for Zotero Connector</papertitle>
+<br>
+<a href="https://github.com/TonybotNi/ZotLink">[Project Page]</a>
+<br>
+<p>Production‑ready MCP server for Zotero to save open preprints (arXiv, CVF, bio/med/chemRxiv) with rich metadata and smart PDF attachments — with upcoming support for publisher databases (Nature, Science, IEEE Xplore, Springer).</p>
+</td>
+</tr>
+
 ---
 # 🏆 Selected Honors and Awards
 --- 
