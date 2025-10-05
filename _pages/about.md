@@ -109,6 +109,8 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 
 <!-- ZotLink -->
 
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
 <tr>
 <td style="padding:20px;width:30%;max-width:30%" align="center">
 <img style="width:100%;max-width:100%" src="../images/ZotLink_cropped.jpg" alt="ZotLink Project Image">
@@ -122,6 +124,8 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <p>Production‑ready MCP server for Zotero to save open preprints (arXiv, CVF, bio/med/chemRxiv) with rich metadata and smart PDF attachments — with upcoming support for publisher databases (Nature, Science, IEEE Xplore, Springer).</p>
 </td>
 </tr>
+
+</tbody></table>
 
 ---
 # 🏆 Selected Honors and Awards
