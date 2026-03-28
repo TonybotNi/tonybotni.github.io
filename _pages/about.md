@@ -19,11 +19,11 @@ My research interests include LLM/Agent post-training (SFT/RL), Agent system des
 
 <!-- * <span style="font-size: smaller;">Mar 2025: Started an algorithm internship at Huawei Noah's Ark Lab, focusing on LLM inference compression.</span> -->
 
-* <span style="font-size: smaller;">Mar. 2026: One paper on weakly-supervised camouflaged object detection was accepted by [CVPR-2026](https://cvpr.thecvf.com/Conferences/2026) Findings.</span>
+* <span style="font-size: smaller;">Mar. 2026: One paper on weakly-supervised COD was accepted by [CVPR-2026](https://cvpr.thecvf.com/Conferences/2026) (Findings).</span>
 * <span style="font-size: smaller;">Mar. 2026: One paper on agent systems has been submitted to [ECCV-2026](https://eccv.ecva.net/).</span>
 * <span style="font-size: smaller;">Mar. 2026: One paper on long-horizon dialogue agents has been submitted to [EMNLP-2026](https://2026.emnlp.org/).</span>
-* <span style="font-size: smaller;">Mar. 2025: One paper on cross-modal person re-identification was accepted by [ICME-2025](https://2025.ieeeicme.org/) (CCF-B, Oral).</span>
-* <span style="font-size: smaller;">Dec. 2024: One paper on zero-shot referring image segmentation was accepted by [AAAI-2025](https://aaai.org/conference/aaai/aaai-25/) (CCF-A).</span>
+* <span style="font-size: smaller;">Mar. 2025: One paper on cross-modal person re-identification was accepted by [ICME-2025](https://2025.ieeeicme.org/) (Oral).</span>
+* <span style="font-size: smaller;">Dec. 2024: One paper on zero-shot referring image segmentation was accepted by [AAAI-2025](https://aaai.org/conference/aaai/aaai-25/) (Poster).</span>
 
 ---
 # 🔬 Research
@@ -77,7 +77,7 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <br>
 <span style="font-family: 'Times New Roman', Times, serif; font-size: 1.1em;"><b>Jingchen Ni</b>, Quan Zhang, Dan Jiang, Keyu Lv, Ke Zhang, Chun Yuan</span>
 <br>
-<em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2026 (Findings)
+<em>IEEE/CVF Conf. on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2026 (Findings)
 <br>
 <a href="https://arxiv.org/pdf/2603.22969">[PDF]</a>
 <a href="https://arxiv.org/abs/2603.22969">[arXiv]</a>
