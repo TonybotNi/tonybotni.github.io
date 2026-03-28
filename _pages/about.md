@@ -96,6 +96,7 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1.3em;">AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents</papertitle>
 <br>
 <span style="font-family: 'Times New Roman', Times, serif; font-size: 1.1em;">Shannan Yan*, <b>Jingchen Ni*</b>, Leqi Zheng, Jiajun Zhang, Peixi Wu, Dacheng Yin, Jing Lyu, Chun Yuan, Fengyun Rao</span>
+<span style="font-size: 0.9em; color: #888;">(*Equal contribution)</span>
 <br>
 <em>Under review at Conference on Empirical Methods in Natural Language Processing (<strong>EMNLP</strong>)</em>, 2026 (Under Review)
 <br>
@@ -157,7 +158,7 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
     <img style="width:100%;max-width:100%" src="../images/tianchi_agent.png" alt="Research Agent Competition">
   </td>
   <td width="75%" valign="center">
-    <papertitle style="font-family: 'SimHei', Times, serif; font-weight: bold; font-size: 1.3em;">阿里云 Data+AI 工程师全球挑战赛 — Research Agent 赛道</papertitle>
+    <papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1.3em;">Alibaba Cloud Data+AI Global Challenge — Research Agent Track</papertitle>
     <br>
     <span style="font-size: 0.95em;">🏆 <strong>Rank 4 / 1028 (Top 0.39%)</strong> &nbsp;|&nbsp; <a href="https://tianchi.aliyun.com/specials/promotion/ai2026" target="_blank" rel="noopener">[Competition Page]</a></span>
     <br>
