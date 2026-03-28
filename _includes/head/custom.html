@@ -15,5 +15,11 @@
 <meta name="theme-color" content="#ffffff"/>
 <meta name="color-scheme" content="light"/>
 <style>:root { color-scheme: light; }</style>
+<script>
+  // Force light theme before any JS runs, so setTheme() always reads "light" from localStorage
+  // and never falls through to the OS prefers-color-scheme detection
+  localStorage.setItem('theme', 'light');
+  document.documentElement.removeAttribute('data-theme');
+</script>
 
 <!-- end custom head snippets -->
