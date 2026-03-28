@@ -9,7 +9,7 @@ redirect_from:
 
 I am a first-year master's student in Computer Technology at Tsinghua University, Shenzhen International Graduate School. I am fortunate to be supervised by Prof. [Chun Yuan](https://www.sigs.tsinghua.edu.cn/yc2/main.psp) in the CVML group. Before that, I obtained my Honors Bachelor’s degree in Computer Science and Technology from the Yingcai Honors College at the University of Electronic Science and Technology of China in 2024.
 
-My research interests span Computer Vision and Multimodal Learning, particularly cross-modal tasks and visual understanding.
+My research interests include LLM/Agent post-training (SFT/RL), Agent system design, multimodal understanding, and model distillation & self-training.
 
 ---
 # ✨ News
@@ -19,6 +19,9 @@ My research interests span Computer Vision and Multimodal Learning, particularly
 
 <!-- * <span style="font-size: smaller;">Mar 2025: Started an algorithm internship at Huawei Noah's Ark Lab, focusing on LLM inference compression.</span> -->
 
+* <span style="font-size: smaller;">Mar. 2026: One paper on weakly-supervised camouflaged object detection was accepted by [CVPR-2026](https://cvpr.thecvf.com/Conferences/2026) Findings.</span>
+* <span style="font-size: smaller;">Mar. 2026: One paper on agent systems has been submitted to [ECCV-2026](https://eccv.ecva.net/).</span>
+* <span style="font-size: smaller;">Mar. 2026: One paper on long-horizon dialogue agents has been submitted to [EMNLP-2026](https://2026.emnlp.org/).</span>
 * <span style="font-size: smaller;">Mar. 2025: One paper on cross-modal person re-identification was accepted by [ICME-2025](https://2025.ieeeicme.org/) (CCF-B, Oral).</span>
 * <span style="font-size: smaller;">Dec. 2024: One paper on zero-shot referring image segmentation was accepted by [AAAI-2025](https://aaai.org/conference/aaai/aaai-25/) (CCF-A).</span>
 
@@ -63,6 +66,46 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 </tr> -->
 
 
+<!-- FCL-COD -->
+
+<tr>
+<td style="padding:20px;width:30%;max-width:30%" align="center">
+<img style="width:100%;max-width:100%" src="../images/fclcod.png" alt="FCL-COD Project Image">
+</td>
+<td width="75%" valign="center">
+<papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1.3em;">FCL-COD: Weakly Supervised Camouflaged Object Detection with Frequency-aware and Contrastive Learning</papertitle>
+<br>
+<span style="font-family: 'Times New Roman', Times, serif; font-size: 1.1em;"><b>Jingchen Ni</b>, Quan Zhang, Dan Jiang, Keyu Lv, Ke Zhang, Chun Yuan</span>
+<br>
+<em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2026 (Findings)
+<br>
+<a href="https://arxiv.org/pdf/2603.22969">[PDF]</a>
+<a href="https://arxiv.org/abs/2603.22969">[arXiv]</a>
+<br>
+<p>As the first author, I proposed FCL-COD, a frequency-aware and contrastive learning-based weakly-supervised COD framework. It incorporates Frequency-aware Low-rank Adaptation (FoRA) into SAM to suppress non-camouflage responses, and employs gradient-aware contrastive learning with multi-scale frequency-aware representation learning to achieve precise boundary delineation. The method surpasses both state-of-the-art weakly-supervised and fully-supervised techniques.</p>
+</td>
+</tr>
+
+<!-- AdaMem -->
+
+<tr>
+<td style="padding:20px;width:30%;max-width:30%" align="center">
+<img style="width:100%;max-width:100%" src="../images/adamem.png" alt="AdaMem Project Image">
+</td>
+<td width="75%" valign="center">
+<papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1.3em;">AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents</papertitle>
+<br>
+<span style="font-family: 'Times New Roman', Times, serif; font-size: 1.1em;">Shannan Yan*, <b>Jingchen Ni*</b>, Leqi Zheng, Jiajun Zhang, Peixi Wu, Dacheng Yin, Jing Lyu, Chun Yuan, Fengyun Rao</span>
+<br>
+<em>Under review at Conference on Empirical Methods in Natural Language Processing (<strong>EMNLP</strong>)</em>, 2026 (Under Review)
+<br>
+<a href="https://arxiv.org/pdf/2603.16496">[PDF]</a>
+<a href="https://arxiv.org/abs/2603.16496">[arXiv]</a>
+<br>
+<p>We propose AdaMem, an adaptive user-centric memory framework for long-horizon dialogue agents. AdaMem organizes dialogue history into working, episodic, persona, and graph memories, and employs a question-conditioned retrieval route combining semantic retrieval with relation-aware graph expansion. AdaMem achieves state-of-the-art performance on the LoCoMo and PERSONAMEM benchmarks.</p>
+</td>
+</tr>
+
 <!-- IteRPrimE -->
 
 <tr>
@@ -75,7 +118,7 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <br>
 <span style="font-family: 'Times New Roman', Times, serif; font-size: 1.1em;">Yuji Wang*, <b>Jingchen Ni*</b>, Yong Liu, Chun Yuan, Yansong Tang</span>
 <br>
-<em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2025
+<em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2025 (Poster)
 <br>
 <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32880">[PDF]</a>
 <a href="https://github.com/VoyageWang/IteRPrimE">[Project Page]</a>
@@ -108,6 +151,21 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 --- 
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+<!-- Alibaba Research Agent Competition -->
+<tr>
+  <td style="padding:20px;width:30%;max-width:30%" align="center">
+    <img style="width:100%;max-width:100%" src="../images/tianchi_agent.png" alt="Research Agent Competition">
+  </td>
+  <td width="75%" valign="center">
+    <papertitle style="font-family: 'SimHei', Times, serif; font-weight: bold; font-size: 1.3em;">阿里云 Data+AI 工程师全球挑战赛 — Research Agent 赛道</papertitle>
+    <br>
+    <span style="font-size: 0.95em;">🏆 <strong>Rank 4 / 1028 (Top 0.39%)</strong> &nbsp;|&nbsp; <a href="https://tianchi.aliyun.com/specials/promotion/ai2026" target="_blank" rel="noopener">[Competition Page]</a></span>
+    <br>
+    <br>
+    <p>Built an end-to-end Research Agent on Alibaba Cloud PAI-LangStudio, deployed as an EAS HTTP service. The agent autonomously plans sub-tasks, invokes web-search and retrieval tools, and synthesizes multi-source evidence to answer complex multi-hop reasoning questions — achieving <strong>4th place out of 1,028 teams</strong> in the final evaluation.</p>
+  </td>
+</tr>
+
 <!-- ZotLink -->
 <tr>
   <td style="padding:20px;width:30%;max-width:30%" align="center">
@@ -121,34 +179,9 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
     <!-- 链接 | 实时星标 -->
     <a href="https://github.com/TonybotNi/ZotLink" target="_blank" rel="noopener">[Project Page]</a>
     <span style="margin: 0 6px; color: #888;">|</span>
-    <span id="zotlink-stars" style="font-size: 0.95em;">⭐ Stars: <span data-owner="TonybotNi" data-repo="ZotLink">—</span></span>
-
-    <script>
-    (async () => {
-      const span = document.querySelector('#zotlink-stars span[data-repo]');
-      if (!span) return;
-      const owner = span.getAttribute('data-owner');
-      const repo  = span.getAttribute('data-repo');
-      const url = `https://api.github.com/repos/${owner}/${repo}`;
-
-      // 简单的 1.2k 格式化
-      const fmt = n => n >= 1000 ? (n/1000).toFixed(n % 1000 >= 100 ? 1 : 0) + 'k' : String(n);
-
-      try {
-        const res = await fetch(url, { headers: { 'Accept': 'application/vnd.github+json' }});
-        if (!res.ok) throw new Error('GitHub API error: ' + res.status);
-        const data = await res.json();
-        span.parentElement.innerHTML =
-          `⭐ Stars: <a href="https://github.com/${owner}/${repo}" target="_blank" rel="noopener">${fmt(data.stargazers_count ?? 0)}</a>`;
-      } catch (e) {
-        // 失败兜底：Shields 徽章
-        span.parentElement.innerHTML =
-          `<a href="https://github.com/${owner}/${repo}" target="_blank" rel="noopener">
-             <img src="https://img.shields.io/github/stars/${owner}/${repo}?style=social" alt="GitHub stars">
-           </a>`;
-      }
-    })();
-    </script>
+    <a href="https://github.com/TonybotNi/ZotLink" target="_blank" rel="noopener">
+      <img src="https://img.shields.io/github/stars/TonybotNi/ZotLink?style=social" alt="GitHub stars">
+    </a>
 
     <br>
     <p>Production-ready MCP server for Zotero to save open preprints (arXiv, CVF, bio/med/chemRxiv) with rich metadata and smart PDF attachments — with upcoming support for publisher databases (Nature, Science, IEEE Xplore, Springer).</p>
