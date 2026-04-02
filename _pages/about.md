@@ -21,7 +21,7 @@ My research interests include LLM/Agent post-training (SFT/RL), Agent system des
 
 * <span style="font-size: smaller;">Mar. 2026: One paper on weakly-supervised COD was accepted by [CVPR-2026](https://cvpr.thecvf.com/Conferences/2026) (Findings).</span>
 * <span style="font-size: smaller;">Mar. 2026: One paper on agent systems has been submitted to [ECCV-2026](https://eccv.ecva.net/).</span>
-* <span style="font-size: smaller;">Mar. 2026: One paper on long-horizon dialogue agents has been submitted to [EMNLP-2026](https://2026.emnlp.org/).</span>
+* <span style="font-size: smaller;">Mar. 2026: 2 papers on LLM agents have been submitted to [EMNLP-2026](https://2026.emnlp.org/).</span>
 * <span style="font-size: smaller;">Mar. 2025: One paper on cross-modal person re-identification was accepted by [ICME-2025](https://2025.ieeeicme.org/) (Oral).</span>
 * <span style="font-size: smaller;">Dec. 2024: One paper on zero-shot referring image segmentation was accepted by [AAAI-2025](https://aaai.org/conference/aaai/aaai-25/) (Poster).</span>
 
@@ -125,6 +125,26 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <a href="https://github.com/VoyageWang/IteRPrimE">[Project Page]</a>
 <br>
 <p>As the project lead and co-first author, I proposed the IteRPrimE method, which significantly improves the localization and semantic relationship processing capabilities for zero-shot referring image segmentation by introducing innovative strategies.</p>
+</td>
+</tr>
+
+<!-- NLAHs -->
+
+<tr>
+<td style="padding:20px;width:30%;max-width:30%" align="center">
+<img style="width:100%;max-width:100%" src="../images/harness.jpg" alt="NLAHs Project Image">
+</td>
+<td width="75%" valign="center">
+<papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1.3em;">Natural-Language Agent Harnesses</papertitle>
+<br>
+<span style="font-family: 'Times New Roman', Times, serif; font-size: 1.1em;">Linyue Pan, Lexiao Zou, Shuo Guo, <b>Jingchen Ni</b>, Hai-Tao Zheng</span>
+<br>
+<em>Under review at Conference on Empirical Methods in Natural Language Processing (<strong>EMNLP</strong>)</em>, 2026
+<br>
+<a href="https://arxiv.org/pdf/2603.25723">[PDF]</a>
+<a href="https://arxiv.org/abs/2603.25723">[arXiv]</a>
+<br>
+<p>We propose Natural-Language Agent Harnesses (NLAHs), which externalize the high-level control logic of agent harnesses as portable, editable natural-language artifacts, and Intelligent Harness Runtime (IHR), a shared runtime that executes these harnesses through explicit contracts, durable artifacts, and lightweight adapters. Controlled evaluations across coding and computer-use benchmarks demonstrate the operational viability of this approach.</p>
 </td>
 </tr>
 
