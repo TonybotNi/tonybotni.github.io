@@ -19,6 +19,8 @@ My research interests include LLM/Agent post-training (SFT/RL), Agent system des
 
 <!-- * <span style="font-size: smaller;">Mar 2025: Started an algorithm internship at Huawei Noah's Ark Lab, focusing on LLM inference compression.</span> -->
 
+* <span style="font-size: smaller;">Apr. 2026: 🎉 NLAHs featured in [DAIR.AI](https://www.dair-ai.com/)'s Weekly Top 10 Papers!</span>
+* <span style="font-size: smaller;">Mar. 2026: 🔥 NLAHs reached [alphaXiv](https://alphaxiv.org/) Hot #1 and received 550K+ views on X.</span>
 * <span style="font-size: smaller;">Mar. 2026: One paper on weakly-supervised COD was accepted by [CVPR-2026](https://cvpr.thecvf.com/Conferences/2026).</span>
 * <span style="font-size: smaller;">Mar. 2026: One paper on agent systems has been submitted to [ECCV-2026](https://eccv.ecva.net/).</span>
 * <span style="font-size: smaller;">Mar. 2026: 2 papers on LLM agents have been submitted to [EMNLP-2026](https://2026.emnlp.org/).</span>
