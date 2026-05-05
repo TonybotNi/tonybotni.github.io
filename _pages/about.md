@@ -24,7 +24,7 @@ My research interests include LLM/Agent post-training (SFT/RL), Agent system des
 * <span style="font-size: smaller;">Mar. 2026: One paper on weakly-supervised COD was accepted by [CVPR-2026](https://cvpr.thecvf.com/Conferences/2026).</span>
 * <span style="font-size: smaller;">Mar. 2026: One paper on agent systems has been submitted to [ECCV-2026](https://eccv.ecva.net/).</span>
 * <span style="font-size: smaller;">Mar. 2026: 2 papers on LLM agents have been submitted to [EMNLP-2026](https://2026.emnlp.org/).</span>
-* <span style="font-size: smaller;">Mar. 2025: One paper on cross-modal person re-identification was accepted by [ICME-2025](https://2025.ieeeicme.org/) (Oral).</span>
+* <span style="font-size: smaller;">Mar. 2025: One paper on cross-modal person re-identification was accepted by [ICME-2025](https://2025.ieeeicme.org/) (<strong>Oral</strong>).</span>
 * <span style="font-size: smaller;">Dec. 2024: One paper on zero-shot referring image segmentation was accepted by [AAAI-2025](https://aaai.org/conference/aaai/aaai-25/).</span>
 
 ---
@@ -161,7 +161,7 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <br>
 <span style="font-family: 'Times New Roman', Times, serif; font-size: 1.1em;"><b>Jingchen Ni*</b>, Keyu Lyu*, Yu Guo, Chun Yuan</span>
 <br>
-<em>IEEE International Conference on Multimedia and Expo (<strong>ICME</strong>)</em>, 2025 (Oral)
+<em>IEEE International Conference on Multimedia and Expo (<strong>ICME</strong>)</em>, 2025 (<strong>Oral</strong>)
 <br>
 <p>As the project lead and first author, I proposed the SAHSR framework to address key challenges in Visible-Infrared Person Re-Identification (VI-ReID), including semantic mismatch and hard-sample discrimination. A patent application for the related work is in progress.</p>
 </td>
