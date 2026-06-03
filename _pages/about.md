@@ -23,7 +23,7 @@ My research interests include LLM/Agent post-training (SFT/RL), Agent system des
 * <span style="font-size: smaller;">Mar. 2026: 🔥 NLAHs reached [alphaXiv](https://alphaxiv.org/) Hot #1 and received 550K+ views on X.</span>
 * <span style="font-size: smaller;">Mar. 2026: One paper on weakly-supervised COD was accepted by [CVPR-2026](https://cvpr.thecvf.com/Conferences/2026).</span>
 * <span style="font-size: smaller;">Mar. 2026: One paper on agent systems has been submitted to [ECCV-2026](https://eccv.ecva.net/).</span>
-* <span style="font-size: smaller;">Mar. 2026: 2 papers on LLM agents have been submitted to [EMNLP-2026](https://2026.emnlp.org/).</span>
+* <span style="font-size: smaller;">Mar. 2026: 3 papers on LLM agents have been submitted to [EMNLP-2026](https://2026.emnlp.org/).</span>
 * <span style="font-size: smaller;">Mar. 2025: One paper on cross-modal person re-identification was accepted by [ICME-2025](https://2025.ieeeicme.org/) (<strong>Oral</strong>).</span>
 * <span style="font-size: smaller;">Dec. 2024: One paper on zero-shot referring image segmentation was accepted by [AAAI-2025](https://aaai.org/conference/aaai/aaai-25/).</span>
 
@@ -67,6 +67,28 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 </td>
 </tr> -->
 
+
+<!-- DeskCraft -->
+
+<tr>
+<td style="padding:20px;width:30%;max-width:30%" align="center">
+<img style="width:100%;max-width:100%" src="../images/deskcraft.png" alt="DeskCraft Project Image">
+</td>
+<td width="75%" valign="center">
+<papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1.3em;">DeskCraft: Benchmarking Desktop Agents on Professional Workflows and Human-in-the-Loop Collaboration</papertitle>
+<br>
+<span style="font-family: 'Times New Roman', Times, serif; font-size: 1.1em;">Wenkai Wang*, Tao Xiong*, <b>Jingchen Ni*</b>, Yunpeng Bao*, Xiyun Li, Tianqi Liu, Hongcan Guo, Zilong Huang, Shengyu Zhang</span>
+<span style="font-size: 0.9em; color: #888;">(*Equal contribution)</span>
+<br>
+<em>Under review at Conference on Empirical Methods in Natural Language Processing (<strong>EMNLP</strong>)</em>, 2026
+<br>
+<a href="https://arxiv.org/pdf/2606.03103">[PDF]</a>
+<a href="https://arxiv.org/abs/2606.03103">[arXiv]</a>
+<a href="https://mrwwk.github.io/DeskCraft/">[Project Page]</a>
+<br>
+<p>As a co-first author, I helped build DeskCraft, a desktop GUI agent benchmark targeting long-horizon professional creative and engineering workflows and proactive human-agent collaboration. It comprises 538 executable tasks across 11 applications with a three-level difficulty taxonomy and a composable human-in-the-loop interaction protocol. Evaluations of 18 agents reveal persistent failures in long-horizon delivery and proactive clarification.</p>
+</td>
+</tr>
 
 <!-- FCL-COD -->
 
