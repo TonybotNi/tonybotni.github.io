@@ -19,7 +19,9 @@ My research interests include LLM/Agent post-training (SFT/RL), Agent system des
 
 <!-- * <span style="font-size: smaller;">Mar 2025: Started an algorithm internship at Huawei Noah's Ark Lab, focusing on LLM inference compression.</span> -->
 
+* <span style="font-size: smaller;">Jun. 2026: One paper on desktop GUI agent benchmark (DeskCraft) was released on [arXiv](https://arxiv.org/abs/2606.03103).</span>
 * <span style="font-size: smaller;">Apr. 2026: 🎉 NLAHs featured in [DAIR.AI](https://www.dair-ai.com/)'s Weekly Top 10 Papers!</span>
+* <span style="font-size: smaller;">Apr. 2026: One technical report on agent framework (Cognitive Kernel-Pro) was released on [arXiv](https://arxiv.org/abs/2508.00414).</span>
 * <span style="font-size: smaller;">Mar. 2026: 🔥 NLAHs reached [alphaXiv](https://alphaxiv.org/) Hot #1 and received 550K+ views on X.</span>
 * <span style="font-size: smaller;">Mar. 2026: One paper on weakly-supervised COD was accepted by [CVPR-2026](https://cvpr.thecvf.com/Conferences/2026).</span>
 * <span style="font-size: smaller;">Mar. 2026: One paper on agent systems has been submitted to [ECCV-2026](https://eccv.ecva.net/).</span>
@@ -169,6 +171,26 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <a href="https://arxiv.org/abs/2603.25723">[arXiv]</a>
 <br>
 <p>We propose Natural-Language Agent Harnesses (NLAHs), which externalize the high-level control logic of agent harnesses as portable, editable natural-language artifacts, and Intelligent Harness Runtime (IHR), a shared runtime that executes these harnesses through explicit contracts, durable artifacts, and lightweight adapters. Controlled evaluations across coding and computer-use benchmarks demonstrate the operational viability of this approach.</p>
+</td>
+</tr>
+
+<!-- Cognitive Kernel-Pro -->
+
+<tr>
+<td style="padding:20px;width:30%;max-width:30%" align="center">
+<img style="width:100%;max-width:100%" src="../images/ckpro.png" alt="Cognitive Kernel-Pro Project Image">
+</td>
+<td width="75%" valign="center">
+<papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1.3em;">Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training</papertitle>
+<br>
+<span style="font-family: 'Times New Roman', Times, serif; font-size: 1.1em;">Tianqing Fang, Zhisong Zhang, Xiaoyang Wang, Rui Wang, Can Qin, Yuxuan Wan, Jun-Yu Ma, Ce Zhang, Jiaqi Chen, Xiyun Li, Yonglin Wang, <b>Jingchen Ni</b>, Tianshi Zheng, Chun Chen, Wenhao Yu, Zhenwen Liang, Hongming Zhang, Haitao Mi, Dong Yu</span>
+<br>
+<em>Technical Report</em>, 2026
+<br>
+<a href="https://arxiv.org/pdf/2508.00414">[PDF]</a>
+<a href="https://arxiv.org/abs/2508.00414">[arXiv]</a>
+<br>
+<p>We present Cognitive Kernel-Pro, a fully open-source multi-module agent framework designed to democratize the development of advanced AI agents. We systematically investigate the curation of high-quality training data for Agent Foundation Models across web, file, code, and general reasoning domains, and explore novel strategies for agent test-time reflection and voting. Our 8B-parameter open-source model achieves state-of-the-art results on GAIA among open-source agents.</p>
 </td>
 </tr>
 
