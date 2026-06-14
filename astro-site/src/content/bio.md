@@ -1,7 +1,7 @@
 ---
 name: "Jingchen Ni"
 avatar: "avatar.jpg"
-shortBio: "Building reliable agentic systems that learn, reason, and interact across modalities."
+shortBio: "Agency Emerges When Understanding Meets the World."
 institution: "Tsinghua University, Beijing, China"
 ---
 
