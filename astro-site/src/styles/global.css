@@ -340,26 +340,21 @@ a:hover,
 }
 
 .internship-logo-box {
-    flex: 0 0 180px;
+    flex: 0 0 165px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .internship-logo {
-    max-width: 150px;
-    max-height: 75px;
+    width: 140px;
+    height: auto;
     object-fit: contain;
 }
 
-.stepfun-logo {
-    max-width: 160px;
-    max-height: 80px;
-}
-
-.fm-lab-logo {
-    max-width: 170px;
-    max-height: 88px;
+.stepfun-logo,
+.huawei-logo {
+    width: 165px;
 }
 
 .internship-content h2 {
