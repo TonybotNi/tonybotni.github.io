@@ -10,9 +10,9 @@ Gemfile.lock
 /vendor/
 .bundle/
 
-# Node
-node_modules
-package-lock.json
+# Node (root only; astro-site lockfile is committed for CI)
+/node_modules
+/package-lock.json
 
 # IDE
 .vscode/

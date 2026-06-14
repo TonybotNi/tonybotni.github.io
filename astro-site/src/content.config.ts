@@ -16,19 +16,6 @@ const publications = defineCollection({
     }),
 });
 
-const talks = defineCollection({
-    loader: glob({ pattern: "**/*.md", base: "./src/content/talks" }),
-    schema: z.object({
-        title: z.string(),
-        date: z.string().optional(),
-        event: z.string().optional(),
-        external_url: z.string().optional(),
-        description: z.string().optional(),
-        tags: z.array(z.string()).optional(),
-        image: z.string().optional(),
-    }),
-});
-
 const posts = defineCollection({
     loader: glob({ pattern: "**/*.md", base: "./src/content/posts" }),
     schema: z.object({
@@ -39,17 +26,6 @@ const posts = defineCollection({
         tags: z.array(z.string()).optional(),
         external_url: z.string().optional(),
         image: z.string().optional(),
-    }),
-});
-
-const teaching = defineCollection({
-    loader: glob({ pattern: "**/*.md", base: "./src/content/teaching" }),
-    schema: z.object({
-        title: z.string(),
-        institution: z.string().optional(),
-        description: z.string().optional(),
-        tags: z.array(z.string()).optional(),
-        external_url: z.string().url().optional(),
     }),
 });
 
@@ -97,10 +73,8 @@ const cv = defineCollection({
 
 export const collections = {
     'publications': publications,
-    'talks': talks,
     'posts': posts,
     'bio': bio,
     'projects': projects,
     'cv': cv,
-    'teaching': teaching,
 };
