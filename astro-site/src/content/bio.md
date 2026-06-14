@@ -1,7 +1,7 @@
 ---
 name: "Jingchen Ni"
 avatar: "avatar.jpg"
-shortBio: "M.S. Student, Tsinghua University. Research interests: LLM/Agent post-training, Agent system design, multimodal understanding."
+shortBio: "Building reliable agentic systems that learn, reason, and interact across modalities."
 institution: "Tsinghua University, Beijing, China"
 ---
 
