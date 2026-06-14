@@ -119,13 +119,13 @@ a,
 ul {
     list-style-type: disc;
     margin-bottom: 1rem;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
 }
 
 ol {
     list-style-type: decimal;
     margin-bottom: 1rem;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
 }
 
 li {
@@ -612,8 +612,8 @@ a:hover,
 .nav-arrow {
     display: none;
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 1.09rem;
+    bottom: 1.81rem;
     width: 2.5rem;
     align-items: center;
     border: none;
@@ -738,7 +738,7 @@ a:hover,
 }
 
 .prose h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: -0.01em;
     margin: 1.5rem 0 0.75rem;
@@ -757,7 +757,7 @@ a:hover,
 .prose ul,
 .prose ol {
     margin-bottom: 1rem;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
 }
 
 .prose li {
@@ -785,7 +785,7 @@ a:hover,
 .compact-list ul,
 .compact-list ol {
     margin-bottom: 0.5rem;
-    padding-left: 0.85rem;
+    padding-left: 1rem;
 }
 
 .compact-list li {
@@ -797,6 +797,13 @@ a:hover,
     letter-spacing: -0.03em;
     white-space: normal;
     overflow-wrap: break-word;
+}
+
+.compact-list ul li::marker,
+.compact-list ol li::marker {
+    font-size: 1rem;
+    color: var(--accent);
+    font-weight: 800;
 }
 
 .prose ul li::marker {
@@ -1101,6 +1108,7 @@ a:hover,
         width: auto;
         overflow-x: auto;
         overflow-y: hidden;
+        padding-bottom: 0.85rem;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
     }

@@ -21,7 +21,7 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 
 ---
 
-<h2 id="publications">📝 Publications</h2>
+<h2 id="publications">📚 Publications</h2>
 
 \* *denotes equal contribution*
 
@@ -45,7 +45,7 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 
 ---
 
-<h2 id="projects">🏗️ Projects</h2>
+<h2 id="projects">🚀 Projects</h2>
 
 <div class="compact-list">
 

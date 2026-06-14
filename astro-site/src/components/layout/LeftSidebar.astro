@@ -32,9 +32,9 @@ const bio = bioCollection[0]?.data;
                 </p>
             )}
             {bio?.shortBio && (
-                <p class="sidebar-bio mt-2 max-md:hidden">{bio.shortBio}</p>
+                <p class="sidebar-bio mt-2">{bio.shortBio}</p>
             )}
-            <div class="flex gap-1 flex-wrap items-center justify-center max-lg:justify-start mt-3">
+            <div class="flex gap-1 flex-wrap items-center justify-center max-lg:justify-start mt-1">
                 {activeSocials.map((social) => (
                     <a
                         href={social.href}
