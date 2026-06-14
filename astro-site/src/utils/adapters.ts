@@ -1,4 +1,5 @@
 import type { ListingItem, DetailItem } from "../types";
+import { toAssetUrl } from "./assets";
 
 function formatDate(dateValue: string | Date | undefined): string | undefined {
     if (!dateValue) return undefined;
@@ -18,7 +19,7 @@ export function getListingItem(entry: any, collection?: string): ListingItem {
         extraInput: d.journal || d.event || d.institution,
         tags: d.tags || [],
         externalUrl: d.external_url,
-        image: d.image,
+        image: toAssetUrl(d.image),
     };
 }
 

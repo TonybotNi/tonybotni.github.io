@@ -9,6 +9,7 @@ export const SITE: SiteConfig = {
     postPerPage: 5,
     favicon: "/favicon.svg",
     lang: "en",
+    assetsBase: "https://pic-1313147768.cos.ap-chengdu.myqcloud.com/Homepage",
 };
 
 export const THEME_CONFIG: ThemeConfig = {

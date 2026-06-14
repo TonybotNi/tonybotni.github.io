@@ -2,7 +2,7 @@
 import { SITE, SOCIALS, SOCIAL_ICONS } from "../../config";
 import { getCollection } from "astro:content";
 import Icon from "../ui/Icon.astro";
-import { Image } from 'astro:assets';
+import { toAssetUrl } from "../../utils/assets";
 
 const activeSocials = SOCIALS.filter((s) => s.isActive);
 const bioCollection = await getCollection("bio");
@@ -12,13 +12,11 @@ const bio = bioCollection[0]?.data;
 <aside class="sidebar max-lg:flex-row max-lg:flex-wrap max-lg:gap-3 max-md:gap-2">
     <div class="flex flex-col items-center text-center max-lg:flex-row max-lg:text-left max-lg:gap-3 max-lg:items-center max-md:gap-2">
         {bio?.avatar && (
-            <Image
-                src={`/${bio.avatar}`}
+            <img
+                src={toAssetUrl(`/${bio.avatar}`)}
                 alt={`Avatar of ${bio.name}`}
                 width={160} /* Maximum width in global.css for sidebar-avatar class */
                 height={160}
-                densities={[1.5, 2]} 
-                format="webp"
                 class="sidebar-avatar"
                 loading="eager"
             />

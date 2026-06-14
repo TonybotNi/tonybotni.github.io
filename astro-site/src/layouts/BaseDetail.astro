@@ -5,6 +5,7 @@ import BackLink from "../components/ui/BackLink.astro";
 import Tag from "../components/ui/Tag.astro";
 import Icon from "../components/ui/Icon.astro";
 import { getDetailItem } from "../utils/adapters";
+import { toAssetUrl } from "../utils/assets";
 import { SITE } from "../config";
 
 interface Props {
@@ -30,7 +31,8 @@ if (detail.extraInput) {
 }
 
 const description = entry.data.description || detail.description || SITE.desc;
-const ogImage = entry.data.image || SITE.ogImage;
+const heroImage = toAssetUrl(entry.data.image);
+const ogImage = heroImage || SITE.ogImage;
 ---
 
 <BaseLayout title={detail.title} description={description} ogImage={ogImage} ogType="article">
@@ -65,9 +67,9 @@ const ogImage = entry.data.image || SITE.ogImage;
             </div>
         )}
 
-        {entry.data.image && (
+        {heroImage && (
             <img
-                src={entry.data.image}
+                src={heroImage}
                 alt={detail.title}
                 class="detail-hero-image"
             />

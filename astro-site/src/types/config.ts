@@ -7,6 +7,8 @@ export interface SiteConfig {
     postPerPage: number;
     favicon: string;
     lang: string;
+    /** Base URL for hosted assets (e.g. Tencent COS "Homepage" folder). Empty = use local /public paths. */
+    assetsBase: string;
 }
 
 export interface ThemeConfig {

@@ -9,7 +9,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "upload:images": "node scripts/upload-to-cos.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",
@@ -23,5 +24,8 @@
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
     "tailwindcss": "^4.2.2"
+  },
+  "devDependencies": {
+    "cos-nodejs-sdk-v5": "^2.15.4"
   }
 }

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { toAssetUrl } from "../utils/assets";
 ---
 
 <BaseLayout title="Internship" description="Internship experience.">
@@ -11,7 +12,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <section class="internship-list">
         <article class="internship-card">
             <div class="internship-logo-box">
-                <img src="/images/StepFun-logo.png" alt="StepFun logo" class="internship-logo stepfun-logo" />
+                <img src={toAssetUrl("/images/StepFun-logo.png")} alt="StepFun logo" class="internship-logo stepfun-logo" />
             </div>
             <div class="internship-content">
                 <h2>StepFun</h2>
@@ -22,7 +23,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
         <article class="internship-card">
             <div class="internship-logo-box">
-                <img src="/images/hunyuan.png" alt="Tencent Hunyuan logo" class="internship-logo" />
+                <img src={toAssetUrl("/images/hunyuan.png")} alt="Tencent Hunyuan logo" class="internship-logo" />
             </div>
             <div class="internship-content">
                 <h2>Tencent</h2>
@@ -33,7 +34,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
         <article class="internship-card">
             <div class="internship-logo-box">
-                <img src="/images/huawei.png" alt="Huawei logo" class="internship-logo huawei-logo" />
+                <img src={toAssetUrl("/images/huawei.png")} alt="Huawei logo" class="internship-logo huawei-logo" />
             </div>
             <div class="internship-content">
                 <h2>Huawei</h2>
