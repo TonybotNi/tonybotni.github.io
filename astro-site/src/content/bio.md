@@ -79,7 +79,7 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 
 * **StepFun, Foundation Model Team** — Foundation Model Post-training Intern (Jun. 2026 - Present)<br>*Multimodal Working Agent Training Group*
 
-* **Tencent TEG, Hunyuan LLM Division** — Frontier Intern (Oct. 2025 - Apr. 2026)<br>*Agent-RL / Hunyuan LLM*
+* **Tencent TEG, Hunyuan LLM Division** — Frontier Intern (Oct. 2025 - Apr. 2026)<br>*Agentic-RL / Hunyuan LLM*
 
 * **Industry Foundation Model Lab** — Algorithm Intern (Mar. 2025 - Sep. 2025)<br>*Multimodal Document Understanding and Grounded Reasoning*
 
