@@ -1,20 +1,23 @@
-# Ignore the contents of the _site directory and other cache directories
+# Ignore macOS
+.DS_Store
+**/.DS_Store
+
+# Legacy Jekyll (archived under archive/legacy-jekyll/)
 _site/
 .sass-cache/
-
-# Ignore the directory for local files during development
 local/
-
-# Ignore the Gemfile that is generated
 Gemfile.lock
-
-# Ignore files created by npm
-node_modules
-package-lock.json
-
-# Ignore the vendor file at root level and bundle for alternative installation
 /vendor/
 .bundle/
 
-# Ignore folders related to IDEs
+# Node
+node_modules
+package-lock.json
+
+# IDE
 .vscode/
+
+# Astro site (source lives in astro-site/)
+astro-site/node_modules/
+astro-site/dist/
+astro-site/.astro/

@@ -19,7 +19,7 @@ My research interests include LLM/Agent post-training (SFT/RL), Agent system des
 
 <!-- * <span style="font-size: smaller;">Mar 2025: Started an algorithm internship at Huawei Noah's Ark Lab, focusing on LLM inference compression.</span> -->
 
-* <span style="font-size: smaller;">Jun. 2026: One paper on desktop GUI agent benchmark (DeskCraft) was released on [arXiv](https://arxiv.org/abs/2606.03103).</span>
+* <span style="font-size: smaller;">Jun. 2026: One paper on desktop GUI agent benchmark (DeskCraft) has been submitted to [EMNLP-2026](https://2026.emnlp.org/).</span>
 * <span style="font-size: smaller;">Apr. 2026: 🎉 NLAHs featured in [DAIR.AI](https://www.dair-ai.com/)'s Weekly Top 10 Papers!</span>
 * <span style="font-size: smaller;">Apr. 2026: One technical report on agent framework (Cognitive Kernel-Pro) was released on [arXiv](https://arxiv.org/abs/2508.00414).</span>
 * <span style="font-size: smaller;">Mar. 2026: 🔥 NLAHs reached [alphaXiv](https://alphaxiv.org/) Hot #1 and received 550K+ views on X.</span>
@@ -144,6 +144,7 @@ Research Project @ <b>Huawei Noah's Ark Lab</b>
 <papertitle style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1.3em;">IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle>
 <br>
 <span style="font-family: 'Times New Roman', Times, serif; font-size: 1.1em;">Yuji Wang*, <b>Jingchen Ni*</b>, Yong Liu, Chun Yuan, Yansong Tang</span>
+<span style="font-size: 0.9em; color: #888;">(*Equal contribution)</span>
 <br>
 <em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2025
 <br>

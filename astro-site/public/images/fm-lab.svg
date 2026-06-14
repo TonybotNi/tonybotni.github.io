@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180" role="img" aria-labelledby="title desc">
+  <title id="title">Foundation Model Lab</title>
+  <desc id="desc">Minimal black wordmark on white background</desc>
+  <g transform="skewX(-8)">
+    <text x="48" y="108" fill="#111111" font-family="Arial Black, Helvetica Neue, Arial, sans-serif" font-size="82" font-weight="900" letter-spacing="-4">FM Lab</text>
+    <text x="52" y="142" fill="#111111" font-family="Helvetica Neue, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="1.2">FOUNDATION MODEL RESEARCH</text>
+  </g>
+</svg>
