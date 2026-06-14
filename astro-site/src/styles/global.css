@@ -547,7 +547,7 @@ a:hover,
 }
 
 .sidebar-bio {
-    font-size: 0.9rem;
+    font-size: 0.82rem;
     color: var(--foreground);
     opacity: 0.8;
     line-height: 1.5;
@@ -611,6 +611,48 @@ a:hover,
 .nav-link:hover .nav-link-line,
 .nav-link.active .nav-link-line {
     width: 100%;
+}
+
+/* Scroll arrows (mobile only, shown via JS when scrollable) */
+.nav-arrow {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2.5rem;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    color: var(--foreground);
+    z-index: 3;
+    padding: 0;
+    background: transparent;
+}
+
+.nav-arrow-left {
+    left: 0;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+    background: linear-gradient(
+        to right,
+        var(--background) 55%,
+        transparent 100%
+    );
+}
+
+.nav-arrow-right {
+    right: 0;
+    justify-content: flex-end;
+    padding-right: 0.5rem;
+    background: linear-gradient(
+        to left,
+        var(--background) 55%,
+        transparent 100%
+    );
+}
+
+.nav-arrow:hover {
+    color: var(--accent);
 }
 
 /* Main Content Area */
@@ -758,7 +800,8 @@ a:hover,
 .compact-list li p > a:first-child strong,
 .compact-list li p > strong:first-child {
     letter-spacing: -0.03em;
-    white-space: nowrap;
+    white-space: normal;
+    overflow-wrap: break-word;
 }
 
 .prose ul li::marker {
@@ -1050,6 +1093,38 @@ a:hover,
     .main-content {
         width: 100%;
         flex: none;
+    }
+
+    .navbar {
+        display: block;
+        position: relative;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: nowrap;
+        width: auto;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    .nav-links::-webkit-scrollbar {
+        display: none;
+    }
+
+    .nav-links li {
+        flex: 0 0 auto;
+    }
+
+    .nav-link {
+        white-space: nowrap;
+    }
+
+    .navbar.can-scroll-left .nav-arrow-left,
+    .navbar.can-scroll-right .nav-arrow-right {
+        display: flex;
     }
 }
 
