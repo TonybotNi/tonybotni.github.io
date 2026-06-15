@@ -3,6 +3,11 @@ import { getCollection } from "astro:content";
 import BaseDetail from "../../layouts/BaseDetail.astro";
 import ShareButtons from "../../components/ui/ShareButtons.astro";
 import { getReadingTime } from "../../utils/readingTime";
+import {
+    getAlternatePostId,
+    isChinesePostId,
+    sortPostsByDate,
+} from "../../utils/posts";
 import { PAGES, SITE } from "../../config";
 
 if (PAGES.blog.isActive === false) {
@@ -11,27 +16,45 @@ if (PAGES.blog.isActive === false) {
 
 export async function getStaticPaths() {
     if (PAGES.blog.isActive === false) return [];
-    const posts = await getCollection("posts");
-    const sortedPosts = posts.sort(
-        (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
-    );
+    const allPosts = await getCollection("posts");
+    const englishPosts = sortPostsByDate(allPosts.filter((p) => !isChinesePostId(p.id)));
+    const chinesePosts = sortPostsByDate(allPosts.filter((p) => isChinesePostId(p.id)));
 
-    return sortedPosts.map((post, i) => ({
-        params: { id: post.id },
-        props: {
-            post,
-            prevPost: i > 0 ? sortedPosts[i - 1] : null,
-            nextPost: i < sortedPosts.length - 1 ? sortedPosts[i + 1] : null,
-        },
-    }));
+    return allPosts.map((post) => {
+        const sameLangPosts = isChinesePostId(post.id) ? chinesePosts : englishPosts;
+        const index = sameLangPosts.findIndex((p) => p.id === post.id);
+
+        return {
+            params: { id: post.id },
+            props: {
+                post,
+                prevPost: index > 0 ? sameLangPosts[index - 1] : null,
+                nextPost: index < sameLangPosts.length - 1 ? sameLangPosts[index + 1] : null,
+            },
+        };
+    });
 }
 
 const { post, prevPost, nextPost } = Astro.props;
+const allPosts = await getCollection("posts");
+const postIds = new Set(allPosts.map((p) => p.id));
+const isZh = isChinesePostId(post.id);
+const alternateId = getAlternatePostId(post.id);
+const hasAlternate = postIds.has(alternateId);
+const switchHref = `/posts/${alternateId}`;
+const switchLabel = isZh ? "English" : "中文";
 const readingTime = `${getReadingTime(post.body || "")} min read`;
 const postUrl = new URL(`/posts/${post.id}`, SITE.website).href;
 ---
 
 <BaseDetail collection="posts" id={post.id} readingTime={readingTime}>
+    {
+        hasAlternate && (
+            <a slot="actions" href={switchHref} class="lang-link">
+                {switchLabel}
+            </a>
+        )
+    }
     <nav
         slot="footer"
         class="post-navigation container-narrow flex justify-between mt-24 pt-12 gap-8"

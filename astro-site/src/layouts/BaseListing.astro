@@ -27,7 +27,10 @@ const sortedEntries = entries.sort((a: any, b: any) => {
 <BaseLayout title={title}>
     {(title || subtitle) && (
         <header class="page-header">
-            {title && <h1 class="page-title">{title}</h1>}
+            <div class="flex items-center justify-between gap-4">
+                {title && <h1 class="page-title">{title}</h1>}
+                <slot name="actions" />
+            </div>
             {subtitle && <p class="page-subtitle">{subtitle}</p>}
         </header>
     )}
@@ -54,4 +57,6 @@ const sortedEntries = entries.sort((a: any, b: any) => {
             )}
         </nav>
     )}
+
+    <slot />
 </BaseLayout>

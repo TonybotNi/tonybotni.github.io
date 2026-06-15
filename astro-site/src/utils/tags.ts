@@ -1,9 +1,10 @@
 import { getCollection } from 'astro:content';
+import { filterEnglishPosts } from './posts';
 
 export async function getAllTags() {
     const publications = await getCollection('publications');
     const projects = await getCollection('projects');
-    const posts = await getCollection('posts');
+    const posts = filterEnglishPosts(await getCollection('posts'));
 
     const allEntries = [...publications, ...projects, ...posts];
     const tags: Record<string, number> = {};
@@ -28,7 +29,7 @@ export async function getContentByTag(tag: string) {
 
     const publications = await getCollection('publications');
     const projects = await getCollection('projects');
-    const posts = await getCollection('posts');
+    const posts = filterEnglishPosts(await getCollection('posts'));
 
     const filterFn = (entry: any) => {
         const entryTags = (entry.data as any).tags || [];

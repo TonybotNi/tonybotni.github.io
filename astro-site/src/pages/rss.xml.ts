@@ -1,9 +1,12 @@
 import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
 import { SITE, PAGES } from "../config";
+import { filterEnglishPosts } from "../utils/posts";
 
 export async function GET(context: any) {
-    const posts = PAGES.blog.isActive !== false ? await getCollection("posts") : [];
+    const posts = PAGES.blog.isActive !== false
+        ? filterEnglishPosts(await getCollection("posts"))
+        : [];
     const publications = PAGES.publications.isActive !== false ? await getCollection("publications") : [];
 
     const items = [

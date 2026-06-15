@@ -2,6 +2,12 @@
 import { getCollection } from "astro:content";
 import BaseListing from "../../layouts/BaseListing.astro";
 import { SITE, PAGES } from "../../config";
+import {
+    filterEnglishPosts,
+    getAlternatePostId,
+    isChinesePostId,
+    sortPostsByDate,
+} from "../../utils/posts";
 
 if (PAGES.blog.isActive === false) {
     return Astro.redirect("/404");
@@ -9,15 +15,25 @@ if (PAGES.blog.isActive === false) {
 
 export async function getStaticPaths({ paginate }: any) {
     if (PAGES.blog.isActive === false) return [];
-    const posts = await getCollection("posts");
-    const sortedPosts = posts.sort(
-        (a: any, b: any) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
-    );
+    const sortedPosts = sortPostsByDate(filterEnglishPosts(await getCollection("posts")));
 
     return paginate(sortedPosts, { pageSize: SITE.postPerPage });
 }
 
 const { page } = Astro.props;
+
+const allPosts = await getCollection("posts");
+const zhMap: Record<string, { title: string; description: string }> = {};
+for (const post of allPosts) {
+    if (isChinesePostId(post.id)) {
+        const baseId = getAlternatePostId(post.id);
+        zhMap[baseId] = {
+            title: post.data.title,
+            description: post.data.description ?? "",
+        };
+    }
+}
+const hasZh = Object.keys(zhMap).length > 0;
 ---
 
 <BaseListing
@@ -25,4 +41,107 @@ const { page } = Astro.props;
     title={PAGES.blog.title}
     subtitle={PAGES.blog.subtitle}
     page={page}
-/>
+>
+    {
+        hasZh && (
+            <div
+                slot="actions"
+                class="flex items-center gap-1"
+                data-posts-lang-switch
+            >
+                <button type="button" data-lang="en" class="lang-switch-btn">EN</button>
+                <span class="opacity-30 text-sm">/</span>
+                <button type="button" data-lang="zh" class="lang-switch-btn">中</button>
+            </div>
+        )
+    }
+
+    {
+        hasZh && (
+            <script
+                type="application/json"
+                id="posts-zh-map"
+                set:html={JSON.stringify(zhMap)}
+            />
+        )
+    }
+</BaseListing>
+
+<script>
+    type ZhEntry = { title: string; description: string };
+
+    function readZhMap(): Record<string, ZhEntry> {
+        const el = document.getElementById("posts-zh-map");
+        if (!el || !el.textContent) return {};
+        try {
+            return JSON.parse(el.textContent);
+        } catch {
+            return {};
+        }
+    }
+
+    function idFromHref(href: string): string {
+        return href.split("/").filter(Boolean).pop() || "";
+    }
+
+    function applyLang(lang: "en" | "zh") {
+        const zhMap = readZhMap();
+
+        document.querySelectorAll<HTMLElement>(".item-list .card").forEach((card) => {
+            const titleLink = card.querySelector<HTMLAnchorElement>("a.card-title");
+            if (!titleLink) return;
+
+            const enHref = titleLink.dataset.enHref || titleLink.getAttribute("href") || "";
+            const id = idFromHref(enHref);
+            const zh = zhMap[id];
+            if (!zh) return;
+
+            const descEl = card.querySelector<HTMLElement>(".card-desc");
+            const imgLink = card.querySelector<HTMLAnchorElement>("a.card-image-link");
+
+            if (!titleLink.dataset.enTitle) {
+                titleLink.dataset.enTitle = titleLink.textContent || "";
+                titleLink.dataset.enHref = enHref;
+                if (descEl) descEl.dataset.enDesc = descEl.textContent || "";
+            }
+
+            if (lang === "zh") {
+                const zhHref = `/posts/${id}-zh`;
+                titleLink.textContent = zh.title;
+                titleLink.setAttribute("href", zhHref);
+                if (imgLink) imgLink.setAttribute("href", zhHref);
+                if (descEl && zh.description) descEl.textContent = zh.description;
+            } else {
+                titleLink.textContent = titleLink.dataset.enTitle || "";
+                titleLink.setAttribute("href", titleLink.dataset.enHref || "");
+                if (imgLink) imgLink.setAttribute("href", titleLink.dataset.enHref || "");
+                if (descEl && descEl.dataset.enDesc) descEl.textContent = descEl.dataset.enDesc;
+            }
+        });
+
+        document
+            .querySelectorAll<HTMLElement>("[data-posts-lang-switch] [data-lang]")
+            .forEach((btn) => {
+                btn.classList.toggle("is-active", btn.dataset.lang === lang);
+            });
+    }
+
+    function initPostsLangSwitch() {
+        const sw = document.querySelector("[data-posts-lang-switch]");
+        if (!sw) return;
+
+        let lang: "en" | "zh" =
+            localStorage.getItem("postsLang") === "zh" ? "zh" : "en";
+        applyLang(lang);
+
+        sw.querySelectorAll<HTMLElement>("[data-lang]").forEach((btn) => {
+            btn.addEventListener("click", () => {
+                lang = btn.dataset.lang === "zh" ? "zh" : "en";
+                localStorage.setItem("postsLang", lang);
+                applyLang(lang);
+            });
+        });
+    }
+
+    document.addEventListener("astro:page-load", initPostsLangSwitch);
+</script>

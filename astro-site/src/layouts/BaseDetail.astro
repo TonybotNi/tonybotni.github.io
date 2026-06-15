@@ -38,11 +38,14 @@ const ogImage = heroImage || SITE.ogImage;
 <BaseLayout title={detail.title} description={description} ogImage={ogImage} ogType="article">
     <div class="flex justify-between items-center mb-4">
         <BackLink href={detail.backHref} label={collection} />
-        {detail.externalUrl && (
-            <a href={detail.externalUrl} target="_blank" rel="noopener noreferrer" class="link">
-                View external
-            </a>
-        )}
+        <div class="flex items-center gap-4">
+            <slot name="actions" />
+            {detail.externalUrl && (
+                <a href={detail.externalUrl} target="_blank" rel="noopener noreferrer" class="link">
+                    View external
+                </a>
+            )}
+        </div>
     </div>
 
     <article>
