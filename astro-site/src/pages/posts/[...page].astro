@@ -4,6 +4,7 @@ import BaseListing from "../../layouts/BaseListing.astro";
 import { SITE, PAGES } from "../../config";
 import {
     filterEnglishPosts,
+    filterVisiblePosts,
     getAlternatePostId,
     isChinesePostId,
     sortPostsByDate,
@@ -22,7 +23,7 @@ export async function getStaticPaths({ paginate }: any) {
 
 const { page } = Astro.props;
 
-const allPosts = await getCollection("posts");
+const allPosts = filterVisiblePosts(await getCollection("posts"));
 const zhMap: Record<string, { title: string; description: string }> = {};
 for (const post of allPosts) {
     if (isChinesePostId(post.id)) {

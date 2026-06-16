@@ -1,3 +1,10 @@
+const hiddenPostIds = new Set([
+    "hello-world",
+    "hello-world-zh",
+    "setting-up-portfolio",
+    "setting-up-portfolio-zh",
+]);
+
 export function isChinesePostId(id: string): boolean {
     return id.endsWith("-zh");
 }
@@ -7,7 +14,11 @@ export function getAlternatePostId(id: string): string {
 }
 
 export function filterEnglishPosts<T extends { id: string }>(posts: T[]): T[] {
-    return posts.filter((p) => !isChinesePostId(p.id));
+    return filterVisiblePosts(posts).filter((p) => !isChinesePostId(p.id));
+}
+
+export function filterVisiblePosts<T extends { id: string }>(posts: T[]): T[] {
+    return posts.filter((p) => !hiddenPostIds.has(p.id));
 }
 
 export function sortPostsByDate<T extends { data: { date?: string } }>(posts: T[]): T[] {

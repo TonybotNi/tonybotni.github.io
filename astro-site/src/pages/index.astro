@@ -1,6 +1,7 @@
 ---
 import { getEntry, render } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Timeline from "../components/ui/Timeline.astro";
 import { PAGES } from "../config";
 
 // Load bio content
@@ -8,6 +9,8 @@ const bioEntry = await getEntry("bio", "bio");
 const { Content: BioContent } = bioEntry
 	? await render(bioEntry)
 	: { Content: null };
+
+const internship = bioEntry?.data.internship ?? [];
 ---
 
 <BaseLayout title={PAGES.home.title}>
@@ -27,5 +30,16 @@ const { Content: BioContent } = bioEntry
 		<div class="prose">
 			{BioContent ? <BioContent /> : <p>Loading bio...</p>}
 		</div>
+		{internship.length > 0 && (
+			<section class="section">
+				<h2 id="internship" class="section-title border-b border-border pb-2">💼 Internship</h2>
+				<Timeline compact items={internship.map(item => ({
+					title: item.company,
+					subtitle: item.role,
+					period: item.period,
+					description: item.description,
+				}))} />
+			</section>
+		)}
 	</div>
 </BaseLayout>

@@ -4,6 +4,7 @@ import BaseDetail from "../../layouts/BaseDetail.astro";
 import ShareButtons from "../../components/ui/ShareButtons.astro";
 import { getReadingTime } from "../../utils/readingTime";
 import {
+    filterVisiblePosts,
     getAlternatePostId,
     isChinesePostId,
     sortPostsByDate,
@@ -16,7 +17,7 @@ if (PAGES.blog.isActive === false) {
 
 export async function getStaticPaths() {
     if (PAGES.blog.isActive === false) return [];
-    const allPosts = await getCollection("posts");
+    const allPosts = filterVisiblePosts(await getCollection("posts"));
     const englishPosts = sortPostsByDate(allPosts.filter((p) => !isChinesePostId(p.id)));
     const chinesePosts = sortPostsByDate(allPosts.filter((p) => isChinesePostId(p.id)));
 
@@ -36,7 +37,7 @@ export async function getStaticPaths() {
 }
 
 const { post, prevPost, nextPost } = Astro.props;
-const allPosts = await getCollection("posts");
+const allPosts = filterVisiblePosts(await getCollection("posts"));
 const postIds = new Set(allPosts.map((p) => p.id));
 const isZh = isChinesePostId(post.id);
 const alternateId = getAlternatePostId(post.id);

@@ -36,6 +36,12 @@ const bio = defineCollection({
         avatar: z.string(),
         shortBio: z.string().optional(),
         institution: z.string().optional(),
+        internship: z.array(z.object({
+            role: z.string(),
+            company: z.string(),
+            period: z.string(),
+            description: z.string().optional(),
+        })).optional(),
     }),
 });
 

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450"
+     font-family="-apple-system,'Segoe UI',Roboto,'PingFang SC','Microsoft YaHei',sans-serif">
+  <rect x="2" y="2" width="796" height="446" rx="16" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="400" y="42" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle">Framework Topologies</text>
+  <text x="400" y="66" font-size="13" fill="#6b7280" text-anchor="middle">How training, rollout, buffers, and controllers are arranged</text>
+
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect x="42" y="92" width="338" height="142" rx="14" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="211" y="120" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">verl</text>
+  <rect x="67" y="146" width="118" height="46" rx="10" fill="#ffffff" stroke="#bfdbfe"/>
+  <text x="126" y="165" font-size="12" font-weight="700" fill="#1f2937" text-anchor="middle">Actor+Rollout</text>
+  <text x="126" y="181" font-size="11" fill="#6b7280" text-anchor="middle">vLLM / SGLang</text>
+  <rect x="235" y="146" width="118" height="46" rx="10" fill="#ffffff" stroke="#bfdbfe"/>
+  <text x="294" y="165" font-size="12" font-weight="700" fill="#1f2937" text-anchor="middle">Critic/Reward</text>
+  <text x="294" y="181" font-size="11" fill="#6b7280" text-anchor="middle">TrainingWorker</text>
+  <line x1="185" y1="169" x2="233" y2="169" stroke="#6b7280" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="211" y="214" font-size="12" fill="#6b7280" text-anchor="middle">Ray worker groups + backend abstraction</text>
+
+  <rect x="420" y="92" width="338" height="142" rx="14" fill="#f0fdf4" stroke="#10b981"/>
+  <text x="589" y="120" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">SLIME</text>
+  <rect x="445" y="146" width="104" height="46" rx="10" fill="#ffffff" stroke="#bbf7d0"/>
+  <text x="497" y="165" font-size="12" font-weight="700" fill="#1f2937" text-anchor="middle">Megatron</text>
+  <text x="497" y="181" font-size="11" fill="#6b7280" text-anchor="middle">Training</text>
+  <rect x="566" y="146" width="96" height="46" rx="10" fill="#ffffff" stroke="#bbf7d0"/>
+  <text x="614" y="165" font-size="12" font-weight="700" fill="#1f2937" text-anchor="middle">Buffer</text>
+  <text x="614" y="181" font-size="11" fill="#6b7280" text-anchor="middle">Samples</text>
+  <rect x="679" y="146" width="54" height="46" rx="10" fill="#ffffff" stroke="#bbf7d0"/>
+  <text x="706" y="165" font-size="12" font-weight="700" fill="#1f2937" text-anchor="middle">SGLang</text>
+  <text x="706" y="181" font-size="11" fill="#6b7280" text-anchor="middle">Router</text>
+  <line x1="549" y1="169" x2="564" y2="169" stroke="#6b7280" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="662" y1="169" x2="677" y2="169" stroke="#6b7280" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="589" y="214" font-size="12" fill="#6b7280" text-anchor="middle">Backend-native serving controls</text>
+
+  <rect x="42" y="258" width="338" height="142" rx="14" fill="#faf5ff" stroke="#8b5cf6"/>
+  <text x="211" y="286" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">AReaL</text>
+  <rect x="67" y="312" width="96" height="46" rx="10" fill="#ffffff" stroke="#ddd6fe"/>
+  <text x="115" y="331" font-size="12" font-weight="700" fill="#1f2937" text-anchor="middle">Controller</text>
+  <text x="115" y="347" font-size="11" fill="#6b7280" text-anchor="middle">Staleness</text>
+  <rect x="181" y="312" width="96" height="46" rx="10" fill="#ffffff" stroke="#ddd6fe"/>
+  <text x="229" y="331" font-size="12" font-weight="700" fill="#1f2937" text-anchor="middle">Replay</text>
+  <text x="229" y="347" font-size="11" fill="#6b7280" text-anchor="middle">Buffer</text>
+  <rect x="295" y="312" width="60" height="46" rx="10" fill="#ffffff" stroke="#ddd6fe"/>
+  <text x="325" y="331" font-size="12" font-weight="700" fill="#1f2937" text-anchor="middle">Trainer</text>
+  <text x="325" y="347" font-size="11" fill="#6b7280" text-anchor="middle">Update</text>
+  <line x1="163" y1="335" x2="179" y2="335" stroke="#6b7280" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="277" y1="335" x2="293" y2="335" stroke="#6b7280" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="211" y="380" font-size="12" fill="#6b7280" text-anchor="middle">Interruptible rollout + policy versions</text>
+
+  <rect x="420" y="258" width="338" height="142" rx="14" fill="#fff7ed" stroke="#f59e0b"/>
+  <text x="589" y="286" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">ms-swift</text>
+  <rect x="445" y="312" width="96" height="46" rx="10" fill="#ffffff" stroke="#fed7aa"/>
+  <text x="493" y="331" font-size="12" font-weight="700" fill="#1f2937" text-anchor="middle">Trainer</text>
+  <text x="493" y="347" font-size="11" fill="#6b7280" text-anchor="middle">HF/Megatron</text>
+  <rect x="568" y="312" width="88" height="46" rx="10" fill="#ffffff" stroke="#fed7aa"/>
+  <text x="612" y="331" font-size="12" font-weight="700" fill="#1f2937" text-anchor="middle">vLLM</text>
+  <text x="612" y="347" font-size="11" fill="#6b7280" text-anchor="middle">Rollout</text>
+  <rect x="681" y="312" width="52" height="46" rx="10" fill="#ffffff" stroke="#fed7aa"/>
+  <text x="707" y="331" font-size="12" font-weight="700" fill="#1f2937" text-anchor="middle">Ray</text>
+  <text x="707" y="347" font-size="11" fill="#6b7280" text-anchor="middle">Groups</text>
+  <line x1="541" y1="335" x2="566" y2="335" stroke="#6b7280" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="656" y1="335" x2="679" y2="335" stroke="#6b7280" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="589" y="380" font-size="12" fill="#6b7280" text-anchor="middle">Product platform integration</text>
+</svg>

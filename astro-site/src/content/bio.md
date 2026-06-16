@@ -3,6 +3,19 @@ name: "Jingchen Ni"
 avatar: "avatar.jpg"
 shortBio: "Agency Emerges When Understanding Meets the World."
 institution: "Tsinghua University, Beijing, China"
+internship:
+  - role: "Foundation Model Post-training Intern"
+    company: "StepFun · Foundation Model Team"
+    period: "Jun. 2026 - Present"
+    description: "Multimodal Working Agent Training Group"
+  - role: "Frontier Intern"
+    company: "Tencent · TEG · Hunyuan LLM Division"
+    period: "Oct. 2025 - Apr. 2026"
+    description: "Agentic-RL / Hunyuan LLM"
+  - role: "Algorithm Intern"
+    company: "Huawei · 2012 Labs · Foundation Model Dept"
+    period: "Mar. 2025 - Sep. 2025"
+    description: "Multimodal Document Understanding and Grounded Reasoning"
 ---
 
 I am a Second-year M.S. student in Computer Technology at Tsinghua University. I am fortunate to be supervised by Prof. [Chun Yuan](https://www.sigs.tsinghua.edu.cn/yc2/main.psp) in the CVML group. Before that, I obtained my Honors Bachelor's degree in Computer Science and Technology from the Yingcai Honors College at the University of Electronic Science and Technology of China in 2024.
@@ -71,16 +84,4 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 
 </div>
 
----
 
-<h2 id="internship">💼 Internship</h2>
-
-<div class="pub-list">
-
-* **StepFun, Foundation Model Team** — Foundation Model Post-training Intern (Jun. 2026 - Present)<br>*Multimodal Working Agent Training Group*
-
-* **Tencent, TEG, Hunyuan LLM Division** — Frontier Intern (Oct. 2025 - Apr. 2026)<br>*Agentic-RL / Hunyuan LLM*
-
-* **Huawei, 2012 Labs, Foundation Model Dept** — Algorithm Intern (Mar. 2025 - Sep. 2025)<br>*Multimodal Document Understanding and Grounded Reasoning*
-
-</div>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450"
+     font-family="-apple-system,'Segoe UI',Roboto,'PingFang SC','Microsoft YaHei',sans-serif">
+  <rect x="2" y="2" width="796" height="446" rx="16" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="400" y="44" font-size="23" font-weight="700" fill="#1f2937" text-anchor="middle">LLM RL Post-training Systems</text>
+  <text x="400" y="70" font-size="13" fill="#6b7280" text-anchor="middle">Four framework routes converging on bounded async disaggregation</text>
+
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect x="58" y="112" width="170" height="94" rx="12" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="143" y="144" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">verl</text>
+  <text x="143" y="169" font-size="12.5" fill="#6b7280" text-anchor="middle">General abstraction</text>
+  <text x="143" y="188" font-size="12.5" fill="#6b7280" text-anchor="middle">FSDP / Megatron / vLLM</text>
+
+  <rect x="58" y="244" width="170" height="94" rx="12" fill="#f0fdf4" stroke="#10b981"/>
+  <text x="143" y="276" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">SLIME</text>
+  <text x="143" y="301" font-size="12.5" fill="#6b7280" text-anchor="middle">Backend-native rollout</text>
+  <text x="143" y="320" font-size="12.5" fill="#6b7280" text-anchor="middle">Megatron + SGLang</text>
+
+  <rect x="572" y="112" width="170" height="94" rx="12" fill="#faf5ff" stroke="#8b5cf6"/>
+  <text x="657" y="144" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">AReaL</text>
+  <text x="657" y="169" font-size="12.5" fill="#6b7280" text-anchor="middle">Async-first control</text>
+  <text x="657" y="188" font-size="12.5" fill="#6b7280" text-anchor="middle">Replay + staleness</text>
+
+  <rect x="572" y="244" width="170" height="94" rx="12" fill="#fff7ed" stroke="#f59e0b"/>
+  <text x="657" y="276" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">ms-swift</text>
+  <text x="657" y="301" font-size="12.5" fill="#6b7280" text-anchor="middle">Product platform</text>
+  <text x="657" y="320" font-size="12.5" fill="#6b7280" text-anchor="middle">Ray + vLLM + Megatron</text>
+
+  <rect x="282" y="162" width="236" height="126" rx="16" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="400" y="204" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle">Bounded Async</text>
+  <text x="400" y="230" font-size="13" fill="#6b7280" text-anchor="middle">Disaggregated rollout</text>
+  <text x="400" y="251" font-size="13" fill="#6b7280" text-anchor="middle">Freshness + weight sync</text>
+
+  <line x1="228" y1="159" x2="281" y2="202" stroke="#6b7280" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="228" y1="291" x2="281" y2="248" stroke="#6b7280" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="572" y1="159" x2="519" y2="202" stroke="#6b7280" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="572" y1="291" x2="519" y2="248" stroke="#6b7280" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="190" y="374" width="420" height="36" rx="18" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="400" y="397" font-size="13.5" font-weight="600" fill="#1f2937" text-anchor="middle">Async, backend-aware, freshness-governed</text>
+</svg>
