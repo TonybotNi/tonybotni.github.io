@@ -832,25 +832,96 @@ a:hover,
     font-family: "JetBrains Mono", monospace;
     font-size: 0.85em;
     font-weight: 500;
-    background: var(--surface);
+    background: color-mix(in srgb, var(--accent) 10%, var(--background));
     color: var(--accent);
     padding: 0.15rem 0.3rem;
     border-radius: 0.2rem;
+    border: 1px solid color-mix(in srgb, var(--accent) 22%, var(--border));
 }
 
 .prose pre {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 0.25rem;
-    padding: 1rem;
+    background: #111827;
+    color: #e5e7eb;
+    border: 1px solid color-mix(in srgb, var(--accent) 45%, #374151);
+    border-left: 4px solid var(--accent);
+    border-radius: 0.65rem;
+    box-shadow: 0 10px 24px color-mix(in srgb, var(--foreground) 8%, transparent);
+    padding: 1rem 1.1rem;
     overflow-x: auto;
-    margin-bottom: 1rem;
+    margin: 1.25rem 0;
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--accent) 55%, var(--border)) transparent;
 }
 
 .prose pre code {
     background: transparent;
-    color: var(--foreground);
+    color: #e5e7eb;
     padding: 0;
+    border: 0;
+    font-size: 0.86rem;
+    line-height: 1.65;
+    white-space: pre;
+}
+
+.prose .table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 1.25rem 0 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 0.65rem;
+    background: var(--background);
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--accent) 55%, var(--border)) transparent;
+}
+
+.prose .table-container::-webkit-scrollbar,
+.prose pre::-webkit-scrollbar {
+    height: 0.65rem;
+}
+
+.prose .table-container::-webkit-scrollbar-thumb,
+.prose pre::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--accent) 55%, var(--border));
+    border-radius: 999px;
+}
+
+.prose table {
+    width: max-content;
+    min-width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--background);
+}
+
+.prose thead {
+    background: color-mix(in srgb, var(--accent) 8%, var(--background));
+}
+
+.prose th,
+.prose td {
+    min-width: 10rem;
+    max-width: 24rem;
+    padding: 0.75rem 0.85rem;
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    text-align: left;
+    font-size: 0.86rem;
+    line-height: 1.55;
+}
+
+.prose th {
+    color: var(--foreground);
+    font-weight: 800;
+}
+
+.prose tr:last-child td {
+    border-bottom: 0;
+}
+
+.prose th:last-child,
+.prose td:last-child {
+    border-right: 0;
 }
 
 .prose img {

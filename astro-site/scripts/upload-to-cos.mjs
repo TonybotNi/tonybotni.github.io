@@ -6,13 +6,17 @@
  *   public/avatar.jpg        -> Homepage/avatar.jpg
  *   public/images/<file>     -> Homepage/images/<file>
  *
- * Credentials are read from environment variables (never hardcoded):
+ * Credentials are read from astro-site/.env (preferred) or environment variables
+ * (never hardcoded):
  *   COS_SECRET_ID, COS_SECRET_KEY   (required)
  *   COS_BUCKET   (default: pic-1313147768)
  *   COS_REGION   (default: ap-chengdu)
  *   COS_PREFIX   (default: Homepage)
  *
  * Usage:
+ *   # 1) put COS_SECRET_ID / COS_SECRET_KEY in astro-site/.env, then:
+ *   npm run upload:images
+ *   # 2) or pass inline:
  *   COS_SECRET_ID=xxx COS_SECRET_KEY=yyy npm run upload:images
  */
 import fs from "node:fs";
@@ -22,6 +26,12 @@ import COS from "cos-nodejs-sdk-v5";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = path.resolve(__dirname, "..", "public");
+
+// Load astro-site/.env if present (Node >=20.12). Inline env vars still win.
+const ENV_FILE = path.resolve(__dirname, "..", ".env");
+if (fs.existsSync(ENV_FILE) && typeof process.loadEnvFile === "function") {
+    process.loadEnvFile(ENV_FILE);
+}
 
 const SecretId = process.env.COS_SECRET_ID;
 const SecretKey = process.env.COS_SECRET_KEY;
