@@ -19,6 +19,12 @@ export const SOCIALS: SocialLink[] = [
         linkTitle: `Jingchen Ni on Google Scholar`,
         isActive: true,
     },
+    {
+        name: "Twitter",
+        href: "https://x.com/Mudrobot277894",
+        linkTitle: `Jingchen Ni on X (Twitter)`,
+        isActive: true,
+    },
 ];
 
 export const SOCIAL_ICONS: Record<string, string> = {
