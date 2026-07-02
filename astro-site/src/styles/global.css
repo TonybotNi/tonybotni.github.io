@@ -707,11 +707,12 @@ a:hover,
 }
 
 .section {
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 .section-title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: -0.01em;
     color: var(--foreground);
