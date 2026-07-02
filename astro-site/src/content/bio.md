@@ -26,9 +26,9 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 
 <h2 id="news">✨ News</h2>
 
+* <span style="font-size: smaller;">Jul. 2026: 🎉 One paper on temporal forgery localization (MG-RWKV) was accepted by <a href="https://eccv.ecva.net/">ECCV-2026</a>.</span>
 * <span style="font-size: smaller;">Jun. 2026: One paper on desktop GUI agent benchmark (DeskCraft) has been submitted to <a href="https://2026.emnlp.org/">EMNLP-2026</a>.</span>
 * <span style="font-size: smaller;">Apr. 2026: 🎉 NLAHs featured in <a href="https://www.dair-ai.com/">DAIR.AI</a>'s Weekly Top 10 Papers!</span>
-* <span style="font-size: smaller;">Apr. 2026: One technical report on agent framework (Cognitive Kernel-Pro) was released on <a href="https://arxiv.org/abs/2508.00414">arXiv</a>.</span>
 
 <span style="font-size: smaller;"><a href="/news">All News →</a></span>
 
@@ -36,9 +36,13 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 
 <h2 id="publications">📚 Publications</h2>
 
+As first / co-first author: **3 A-tier** (CVPR, AAAI, ECCV) **+ 1 B-tier (Oral)** (ICME).
+
 \* *denotes equal contribution*
 
 <div class="compact-list">
+
+* [**MG-RWKV: Multi-Grained Context-Aware RWKV for Temporal Forgery Localization**](https://arxiv.org/abs/2607.00902)<br>**Jingchen Ni**, Cangjin Yu, Dan Jiang, Quan Zhang, Keyu Lv, Shannan Yan, Linyue Pan, Ke Zhang, Chun Yuan.<br>*European Conference on Computer Vision (**ECCV**)*, 2026. **(THU-A)**
 
 * [**DeskCraft: Benchmarking Desktop Agents on Professional Workflows and Human-in-the-Loop Collaboration**](https://arxiv.org/abs/2606.03103)<br>Wenkai Wang\*, Tao Xiong\*, **Jingchen Ni\***, Yunpeng Bao\*, Xiyun Li, Tianqi Liu, Hongcan Guo, Zilong Huang, Shengyu Zhang.<br>*Under review at Conference on Empirical Methods in Natural Language Processing (**EMNLP**)*, 2026. **(THU-A)** [[Project Page]](https://mrwwk.github.io/DeskCraft/)
 
