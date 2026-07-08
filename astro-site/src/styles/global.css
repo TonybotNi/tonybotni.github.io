@@ -340,7 +340,7 @@ a:hover,
 }
 
 .internship-logo-box {
-    flex: 0 0 165px;
+    flex: 0 0 186px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -355,6 +355,16 @@ a:hover,
 .stepfun-logo,
 .huawei-logo {
     width: 165px;
+}
+
+/* Hunyuan logo is much wider (icon + text). Match StepFun's height so the
+   circular icon is the same size and left-aligned; keep natural proportions
+   (no width compression) and let the wider "Hy" wordmark extend to the right
+   within the widened logo box. */
+.hunyuan-logo {
+    width: auto;
+    height: 44px;
+    object-fit: contain;
 }
 
 .internship-content h2 {
