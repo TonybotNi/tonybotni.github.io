@@ -814,6 +814,24 @@ a:hover,
     overflow-wrap: break-word;
 }
 
+.author-line {
+    line-height: 1.2;
+    opacity: 0.75;
+}
+
+.tier-tag {
+    display: inline;
+    margin-right: 0.3rem;
+    padding: 0 0.25rem;
+    border-radius: 0.2rem;
+    background: color-mix(in srgb, var(--accent) 9%, var(--background));
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 0.82em;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+}
+
 .compact-list ul li::marker,
 .compact-list ol li::marker {
     font-size: 1rem;
