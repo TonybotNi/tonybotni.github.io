@@ -26,6 +26,7 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 
 <h2 id="news">✨ News</h2>
 
+* <span style="font-size: smaller;">Jul. 2026: One paper on an omnimodal progressive reasoning agent for segmentation was submitted to <a href="https://aaai.org/conference/aaai/aaai-27/">AAAI-2027</a>.</span>
 * <span style="font-size: smaller;">Jul. 2026: 🎉 One paper on temporal forgery localization (MG-RWKV) was accepted by <a href="https://eccv.ecva.net/">ECCV-2026</a>.</span>
 * <span style="font-size: smaller;">Jun. 2026: One paper on desktop GUI agent benchmark (DeskCraft) has been submitted to <a href="https://2026.emnlp.org/">EMNLP-2026</a>.</span>
 * <span style="font-size: smaller;">Apr. 2026: 🎉 NLAHs featured in <a href="https://www.dair-ai.com/">DAIR.AI</a>'s Weekly Top 10 Papers!</span>
