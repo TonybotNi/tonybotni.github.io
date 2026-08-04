@@ -2,7 +2,7 @@
 title: "Natural-Language Agent Harnesses"
 author: "Linyue Pan, Lexiao Zou, Shuo Guo, Jingchen Ni, Hai-Tao Zheng"
 date: "2026-03-01"
-journal: "Under review at EMNLP 2026 (THU-A)"
+journal: "Under review at NeurIPS 2026 (CCF-A)"
 external_url: "https://arxiv.org/abs/2603.25723"
 image: "/images/harness.jpg"
 description: "Externalizing agent harness control logic as portable natural-language artifacts with a shared runtime."

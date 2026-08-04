@@ -29,7 +29,6 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 * <span style="font-size: smaller;">Jul. 2026: One paper on an omnimodal progressive reasoning agent for segmentation was submitted to <a href="https://aaai.org/conference/aaai/aaai-27/">AAAI-2027</a>.</span>
 * <span style="font-size: smaller;">Jul. 2026: 🎉 One paper on temporal forgery localization (MG-RWKV) was accepted by <a href="https://eccv.ecva.net/">ECCV-2026</a>.</span>
 * <span style="font-size: smaller;">Jun. 2026: One paper on desktop GUI agent benchmark (DeskCraft) has been submitted to <a href="https://2026.emnlp.org/">EMNLP-2026</a>.</span>
-* <span style="font-size: smaller;">Apr. 2026: 🎉 NLAHs featured in <a href="https://www.dair-ai.com/">DAIR.AI</a>'s Weekly Top 10 Papers!</span>
 
 <span style="font-size: smaller;"><a href="/news">All News →</a></span>
 
@@ -37,7 +36,22 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 
 <h2 id="publications">📚 Publications</h2>
 
-As first / co-first author: **3 A-tier** (CVPR, AAAI, ECCV) **+ 1 B-tier (Oral)** (ICME).
+<div class="publication-stats">
+  <div class="publication-stat">
+    <svg class="publication-stat-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10v4a5 5 0 0 1-10 0V4Z"></path><path d="M7 6H4v2a4 4 0 0 0 4 4"></path><path d="M17 6h3v2a4 4 0 0 1-4 4"></path><path d="M12 13v5"></path><path d="M8 21h8"></path></svg>
+    <span class="publication-stat-copy">
+      <span class="publication-stat-label">First / co-first author</span>
+      <strong>3 A-tier + 1 B-tier (Oral)</strong>
+    </span>
+  </div>
+  <a class="scholar-metric" href="https://scholar.google.com/citations?user=KJSB8EkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="View citations on Google Scholar">
+    <svg class="scholar-metric-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 9 12 5 2 9l10 4 10-4v6"></path><path d="M6 10.6V16a6 3 0 0 0 12 0v-5.4"></path></svg>
+    <span class="scholar-metric-copy">
+      <span class="publication-stat-label">Google Scholar</span>
+      <strong><span data-scholar-citations>139</span> citations</strong>
+    </span>
+  </a>
+</div>
 
 \* *denotes equal contribution*
 
@@ -53,7 +67,7 @@ As first / co-first author: **3 A-tier** (CVPR, AAAI, ECCV) **+ 1 B-tier (Oral)*
 
 * [**IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis**](https://ojs.aaai.org/index.php/AAAI/article/view/32880)<br><span class="author-line">Yuji Wang*, <strong>Jingchen Ni*</strong>, Yong Liu, Chun Yuan, Yansong Tang.</span><br><span class="tier-tag">CCF-A</span>*AAAI Conference on Artificial Intelligence (**AAAI**)*, 2025.
 
-* [**Natural-Language Agent Harnesses**](https://arxiv.org/abs/2603.25723)<br><span class="author-line">Linyue Pan, Lexiao Zou, Shuo Guo, <strong>Jingchen Ni</strong>, Hai-Tao Zheng.</span><br><span class="tier-tag">THU-A</span>*Under review at Conference on Empirical Methods in Natural Language Processing (**EMNLP**)*, 2026.
+* [**Natural-Language Agent Harnesses**](https://arxiv.org/abs/2603.25723)<br><span class="author-line">Linyue Pan, Lexiao Zou, Shuo Guo, <strong>Jingchen Ni</strong>, Hai-Tao Zheng.</span><br><span class="tier-tag">CCF-A</span>*Under review at Conference on Neural Information Processing Systems (**NeurIPS**)*, 2026.
 
 * [**Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training**](https://arxiv.org/abs/2508.00414)<br><span class="author-line">Tianqing Fang, Zhisong Zhang, Xiaoyang Wang, Rui Wang, Can Qin, Yuxuan Wan, Jun-Yu Ma, Ce Zhang, Jiaqi Chen, Xiyun Li, Yonglin Wang, <strong>Jingchen Ni</strong>, Tianshi Zheng, Chun Chen, Wenhao Yu, Zhenwen Liang, Hongming Zhang, Haitao Mi, Dong Yu.</span><br>*Technical Report*, 2026.
 
