@@ -907,6 +907,16 @@ a:hover,
         padding-top: 0.65rem;
         padding-left: 0;
     }
+
+    .compact-timeline-item {
+        gap: 8px;
+    }
+
+    .compact-timeline-dot {
+        width: 6px;
+        height: 6px;
+        margin-top: 10px;
+    }
 }
 
 .author-line {
