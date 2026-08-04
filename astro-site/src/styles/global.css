@@ -917,6 +917,10 @@ a:hover,
         height: 6px;
         margin-top: 10px;
     }
+
+    .home-prose ul > li::marker {
+        content: "\2022\2009";
+    }
 }
 
 .author-line {
