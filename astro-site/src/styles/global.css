@@ -918,8 +918,8 @@ a:hover,
         margin-top: 10px;
     }
 
-    .home-prose ul > li::marker {
-        content: "\2022\2009";
+    .home-prose ul {
+        padding-left: calc(1rem + 1px);
     }
 }
 
