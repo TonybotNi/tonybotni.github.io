@@ -814,6 +814,42 @@ a:hover,
     overflow-wrap: break-word;
 }
 
+/* Homepage lists share the internship timeline's dot geometry so both stay
+   aligned regardless of browser font metrics. */
+.prose.home-prose ul {
+    list-style: none;
+    padding-left: 16.5px;
+}
+
+.prose.home-prose ul > li {
+    position: relative;
+}
+
+.prose.home-prose ul > li::before {
+    content: "";
+    position: absolute;
+    left: -14px;
+    top: calc(0.85em - 2.5px);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--accent);
+}
+
+/* Half the line box minus half the dot, independent of the list's font size. */
+@supports (top: 1lh) {
+    .prose.home-prose ul > li::before {
+        top: calc(0.5lh - 2.5px);
+    }
+}
+
+/* Markdown wraps loose list items in <p>, and the global `p` rule resets those
+   to 0.95rem/1.65 whatever font size the surrounding list uses. The bullet then
+   has to follow the paragraph's line box instead of the list item's. */
+.prose.home-prose ul > li:has(> p)::before {
+    top: calc(0.78375rem - 2.5px);
+}
+
 .publication-stats {
     display: inline-flex;
     align-items: center;
@@ -906,20 +942,6 @@ a:hover,
         border-left: 0;
         padding-top: 0.65rem;
         padding-left: 0;
-    }
-
-    .compact-timeline-item {
-        gap: 8px;
-    }
-
-    .compact-timeline-dot {
-        width: 6px;
-        height: 6px;
-        margin-top: 10px;
-    }
-
-    .home-prose ul {
-        padding-left: calc(1rem + 1px);
     }
 }
 
