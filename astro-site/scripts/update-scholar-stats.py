@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import json
 import os
 import re
 import sys
@@ -17,6 +18,11 @@ PROFILE_URL = (
     "https://scholar.google.com/citations"
     f"?hl=en&user={SCHOLAR_ID}"
 )
+FALLBACK_URL = os.environ.get(
+    "SCHOLAR_FALLBACK_URL",
+    "https://cse.bth.se/~fer/googlescholar-api/"
+    f"googlescholar.php?user={SCHOLAR_ID}",
+)
 BIO_PATH = Path(__file__).resolve().parents[1] / "src/content/bio.md"
 CITATION_PATTERN = re.compile(
     r'(<span data-scholar-citations>)\d+(</span>)'
@@ -27,9 +33,9 @@ SCHOLAR_PATTERN = re.compile(
 )
 
 
-def fetch_citations() -> int:
-    request = urllib.request.Request(
-        PROFILE_URL,
+def make_request(url: str) -> urllib.request.Request:
+    return urllib.request.Request(
+        url,
         headers={
             "Accept-Language": "en-US,en;q=0.9",
             "User-Agent": (
@@ -40,8 +46,12 @@ def fetch_citations() -> int:
         },
     )
 
+
+def fetch_google_scholar() -> int:
+    request = make_request(PROFILE_URL)
+
     last_error: Exception | None = None
-    for attempt in range(3):
+    for attempt in range(2):
         try:
             with urllib.request.urlopen(request, timeout=30) as response:
                 html = response.read().decode("utf-8", errors="replace")
@@ -53,10 +63,46 @@ def fetch_citations() -> int:
             return int(match.group(1).replace(",", ""))
         except (OSError, RuntimeError, urllib.error.URLError) as error:
             last_error = error
-            if attempt < 2:
+            if attempt < 1:
                 time.sleep(5 * (attempt + 1))
 
-    raise RuntimeError(f"Unable to fetch Google Scholar citations: {last_error}")
+    raise RuntimeError(f"Google Scholar request failed: {last_error}")
+
+
+def fetch_fallback() -> int:
+    request = make_request(FALLBACK_URL)
+    with urllib.request.urlopen(request, timeout=30) as response:
+        payload = json.load(response)
+
+    value = payload.get("total_citations")
+    try:
+        citations = int(str(value).replace(",", ""))
+    except (TypeError, ValueError) as error:
+        raise RuntimeError(
+            "Scholar fallback returned an invalid total_citations value"
+        ) from error
+
+    if citations < 0:
+        raise RuntimeError("Scholar fallback returned a negative citation count")
+    return citations
+
+
+def fetch_citations() -> int:
+    try:
+        return fetch_google_scholar()
+    except Exception as primary_error:
+        print(
+            f"Primary Scholar fetch failed; trying fallback: {primary_error}",
+            file=sys.stderr,
+        )
+
+    try:
+        return fetch_fallback()
+    except Exception as fallback_error:
+        raise RuntimeError(
+            "Unable to fetch citations from Google Scholar or fallback: "
+            f"{fallback_error}"
+        ) from fallback_error
 
 
 def main() -> int:

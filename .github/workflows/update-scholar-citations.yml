@@ -2,7 +2,7 @@ name: Update Google Scholar citations
 
 on:
   schedule:
-    - cron: "17 3 * * 1"
+    - cron: "23 */12 * * *"
   workflow_dispatch:
   push:
     branches: [master]
@@ -20,6 +20,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
 
@@ -28,9 +29,9 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch Google Scholar citation count
-        continue-on-error: true
         env:
           SCHOLAR_ID: KJSB8EkAAAAJ
+          SCHOLAR_FALLBACK_URL: https://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=KJSB8EkAAAAJ
         run: python astro-site/scripts/update-scholar-stats.py
 
       - name: Commit updated citation count
