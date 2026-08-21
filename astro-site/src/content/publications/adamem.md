@@ -2,7 +2,7 @@
 title: "AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents"
 author: "Shannan Yan*, Jingchen Ni*, Leqi Zheng, Jiajun Zhang, Peixi Wu, Dacheng Yin, Jing Lyu, Chun Yuan, Fengyun Rao"
 date: "2026-03-01"
-journal: "To be submitted to NAACL 2027 (CCF-B)"
+journal: "Submitted to NAACL 2027 (CCF-B)"
 external_url: "https://arxiv.org/abs/2603.16496"
 image: "/images/adamem.png"
 description: "An adaptive user-centric memory framework for long-horizon dialogue agents."

@@ -63,7 +63,7 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 
 * [**FCL-COD: Weakly Supervised Camouflaged Object Detection with Frequency-aware and Contrastive Learning**](https://arxiv.org/abs/2603.22969)<br><span class="author-line"><strong>Jingchen Ni</strong>, Quan Zhang, Dan Jiang, Keyu Lv, Ke Zhang, Chun Yuan.</span><br><span class="tier-tag">CCF-A</span>*IEEE/CVF Conf. on Computer Vision and Pattern Recognition (**CVPR**)*, 2026.
 
-* [**AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents**](https://arxiv.org/abs/2603.16496)<br><span class="author-line">Shannan Yan*, <strong>Jingchen Ni*</strong>, Leqi Zheng, Jiajun Zhang, Peixi Wu, Dacheng Yin, Jing Lyu, Chun Yuan, Fengyun Rao.</span><br><span class="tier-tag">CCF-B</span>*To be submitted to Annual Conference of the Nations of the Americas Chapter of the ACL (**NAACL**)*, 2027.
+* [**AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents**](https://arxiv.org/abs/2603.16496)<br><span class="author-line">Shannan Yan*, <strong>Jingchen Ni*</strong>, Leqi Zheng, Jiajun Zhang, Peixi Wu, Dacheng Yin, Jing Lyu, Chun Yuan, Fengyun Rao.</span><br><span class="tier-tag">CCF-B</span>*Submitted to Annual Conference of the Nations of the Americas Chapter of the ACL (**NAACL**)*, 2027.
 
 * [**IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis**](https://ojs.aaai.org/index.php/AAAI/article/view/32880)<br><span class="author-line">Yuji Wang*, <strong>Jingchen Ni*</strong>, Yong Liu, Chun Yuan, Yansong Tang.</span><br><span class="tier-tag">CCF-A</span>*AAAI Conference on Artificial Intelligence (**AAAI**)*, 2025.
 
