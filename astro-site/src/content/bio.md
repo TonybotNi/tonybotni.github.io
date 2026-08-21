@@ -26,9 +26,9 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 
 <h2 id="news">✨ News</h2>
 
+* <span style="font-size: smaller;">Aug. 2026: 🎉 One paper on desktop GUI agent benchmark (DeskCraft) was accepted by <a href="https://2026.emnlp.org/">EMNLP-2026</a>.</span>
 * <span style="font-size: smaller;">Jul. 2026: One paper on an omnimodal progressive reasoning agent for segmentation was submitted to <a href="https://aaai.org/conference/aaai/aaai-27/">AAAI-2027</a>.</span>
 * <span style="font-size: smaller;">Jul. 2026: 🎉 One paper on temporal forgery localization (MG-RWKV) was accepted by <a href="https://eccv.ecva.net/">ECCV-2026</a>.</span>
-* <span style="font-size: smaller;">Jun. 2026: One paper on desktop GUI agent benchmark (DeskCraft) has been submitted to <a href="https://2026.emnlp.org/">EMNLP-2026</a>.</span>
 
 <span style="font-size: smaller;"><a href="/news">All News →</a></span>
 
@@ -41,7 +41,7 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
     <svg class="publication-stat-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10v4a5 5 0 0 1-10 0V4Z"></path><path d="M7 6H4v2a4 4 0 0 0 4 4"></path><path d="M17 6h3v2a4 4 0 0 1-4 4"></path><path d="M12 13v5"></path><path d="M8 21h8"></path></svg>
     <span class="publication-stat-copy">
       <span class="publication-stat-label">First / co-first author</span>
-      <strong>3 A-tier + 1 B-tier (Oral)</strong>
+      <strong>4 A-tier + 1 B-tier (Oral)</strong>
     </span>
   </div>
   <a class="scholar-metric" href="https://scholar.google.com/citations?user=KJSB8EkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="View citations on Google Scholar">
@@ -59,11 +59,11 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 
 * [**MG-RWKV: Multi-Grained Context-Aware RWKV for Temporal Forgery Localization**](https://arxiv.org/abs/2607.00902)<br><span class="author-line"><strong>Jingchen Ni</strong>, Cangjin Yu, Dan Jiang, Quan Zhang, Keyu Lv, Shannan Yan, Linyue Pan, Ke Zhang, Chun Yuan.</span><br><span class="tier-tag">THU-A</span>*European Conference on Computer Vision (**ECCV**)*, 2026.
 
-* [**DeskCraft: Benchmarking Desktop Agents on Professional Workflows and Human-in-the-Loop Collaboration**](https://arxiv.org/abs/2606.03103)<br><span class="author-line">Wenkai Wang*, Tao Xiong*, <strong>Jingchen Ni*</strong>, Yunpeng Bao*, Xiyun Li, Tianqi Liu, Hongcan Guo, Zilong Huang, Shengyu Zhang.</span><br><span class="tier-tag">THU-A</span>*Under review at Conference on Empirical Methods in Natural Language Processing (**EMNLP**)*, 2026. [[Project Page]](https://mrwwk.github.io/DeskCraft/)
+* [**DeskCraft: Benchmarking Desktop Agents on Professional Workflows and Human-in-the-Loop Collaboration**](https://arxiv.org/abs/2606.03103)<br><span class="author-line">Wenkai Wang*, Tao Xiong*, <strong>Jingchen Ni*</strong>, Yunpeng Bao*, Xiyun Li, Tianqi Liu, Hongcan Guo, Zilong Huang, Shengyu Zhang.</span><br><span class="tier-tag">THU-A</span>*Conference on Empirical Methods in Natural Language Processing (**EMNLP**)*, 2026. [[Project Page]](https://mrwwk.github.io/DeskCraft/)
 
 * [**FCL-COD: Weakly Supervised Camouflaged Object Detection with Frequency-aware and Contrastive Learning**](https://arxiv.org/abs/2603.22969)<br><span class="author-line"><strong>Jingchen Ni</strong>, Quan Zhang, Dan Jiang, Keyu Lv, Ke Zhang, Chun Yuan.</span><br><span class="tier-tag">CCF-A</span>*IEEE/CVF Conf. on Computer Vision and Pattern Recognition (**CVPR**)*, 2026.
 
-* [**AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents**](https://arxiv.org/abs/2603.16496)<br><span class="author-line">Shannan Yan*, <strong>Jingchen Ni*</strong>, Leqi Zheng, Jiajun Zhang, Peixi Wu, Dacheng Yin, Jing Lyu, Chun Yuan, Fengyun Rao.</span><br><span class="tier-tag">THU-A</span>*Under review at Conference on Empirical Methods in Natural Language Processing (**EMNLP**)*, 2026.
+* [**AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents**](https://arxiv.org/abs/2603.16496)<br><span class="author-line">Shannan Yan*, <strong>Jingchen Ni*</strong>, Leqi Zheng, Jiajun Zhang, Peixi Wu, Dacheng Yin, Jing Lyu, Chun Yuan, Fengyun Rao.</span><br><span class="tier-tag">CCF-B</span>*To be submitted to Annual Conference of the Nations of the Americas Chapter of the ACL (**NAACL**)*, 2027.
 
 * [**IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis**](https://ojs.aaai.org/index.php/AAAI/article/view/32880)<br><span class="author-line">Yuji Wang*, <strong>Jingchen Ni*</strong>, Yong Liu, Chun Yuan, Yansong Tang.</span><br><span class="tier-tag">CCF-A</span>*AAAI Conference on Artificial Intelligence (**AAAI**)*, 2025.
 

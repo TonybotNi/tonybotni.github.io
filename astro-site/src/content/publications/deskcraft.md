@@ -2,7 +2,7 @@
 title: "DeskCraft: Benchmarking Desktop Agents on Professional Workflows and Human-in-the-Loop Collaboration"
 author: "Wenkai Wang*, Tao Xiong*, Jingchen Ni*, Yunpeng Bao*, Xiyun Li, Tianqi Liu, Hongcan Guo, Zilong Huang, Shengyu Zhang"
 date: "2026-06-01"
-journal: "Under review at EMNLP 2026 (THU-A)"
+journal: "EMNLP 2026 (THU-A)"
 external_url: "https://arxiv.org/abs/2606.03103"
 image: "/images/deskcraft.png"
 description: "A desktop GUI agent benchmark targeting long-horizon professional workflows and proactive human-agent collaboration."
