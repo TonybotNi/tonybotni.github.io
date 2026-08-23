@@ -11,6 +11,7 @@ on:
       - "astro-site/scripts/update-scholar-stats.py"
 
 permissions:
+  actions: write
   contents: write
 
 concurrency:
@@ -35,9 +36,11 @@ jobs:
         run: python astro-site/scripts/update-scholar-stats.py
 
       - name: Commit updated citation count
+        id: commit
         run: |
           if git diff --quiet -- astro-site/src/content/bio.md; then
             echo "Citation count is unchanged."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
@@ -46,3 +49,10 @@ jobs:
           git add astro-site/src/content/bio.md
           git commit -m "chore: update Google Scholar citations"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy updated citation count
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref master
