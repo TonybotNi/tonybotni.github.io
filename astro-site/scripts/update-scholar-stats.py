@@ -71,20 +71,43 @@ def fetch_google_scholar() -> int:
 
 def fetch_fallback() -> int:
     request = make_request(FALLBACK_URL)
-    with urllib.request.urlopen(request, timeout=30) as response:
-        payload = json.load(response)
+    last_error: Exception | None = None
 
-    value = payload.get("total_citations")
-    try:
-        citations = int(str(value).replace(",", ""))
-    except (TypeError, ValueError) as error:
-        raise RuntimeError(
-            "Scholar fallback returned an invalid total_citations value"
-        ) from error
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                payload = json.load(response)
 
-    if citations < 0:
-        raise RuntimeError("Scholar fallback returned a negative citation count")
-    return citations
+            if not isinstance(payload, dict):
+                raise RuntimeError("Scholar fallback returned invalid JSON")
+
+            value = payload.get("total_citations")
+            citations = int(str(value).replace(",", ""))
+            if citations < 0:
+                raise RuntimeError(
+                    "Scholar fallback returned a negative citation count"
+                )
+            return citations
+        except (
+            OSError,
+            RuntimeError,
+            TypeError,
+            ValueError,
+            urllib.error.URLError,
+        ) as error:
+            last_error = error
+            if attempt < 3:
+                delay = 5 * (2**attempt)
+                print(
+                    "Scholar fallback attempt "
+                    f"{attempt + 1} failed; retrying in {delay}s: {error}",
+                    file=sys.stderr,
+                )
+                time.sleep(delay)
+
+    raise RuntimeError(
+        f"Scholar fallback failed after 4 attempts: {last_error}"
+    )
 
 
 def fetch_citations() -> int:
