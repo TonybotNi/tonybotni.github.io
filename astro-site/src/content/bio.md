@@ -48,7 +48,7 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
     <svg class="scholar-metric-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 9 12 5 2 9l10 4 10-4v6"></path><path d="M6 10.6V16a6 3 0 0 0 12 0v-5.4"></path></svg>
     <span class="scholar-metric-copy">
       <span class="publication-stat-label">Google Scholar</span>
-      <strong><span data-scholar-citations>157</span> citations</strong>
+      <strong><span data-scholar-citations>158</span> citations</strong>
     </span>
   </a>
 </div>
