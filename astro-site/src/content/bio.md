@@ -18,7 +18,7 @@ internship:
     description: "Multimodal Document Grounding & Reasoning"
 ---
 
-I am a Third-year M.S. student in Computer Technology at Tsinghua University. I am fortunate to be supervised by Prof. [Chun Yuan](https://www.sigs.tsinghua.edu.cn/yc2/main.psp) in the CVML group. Before that, I obtained my Honors Bachelor's degree in Computer Science and Technology from the Yingcai Honors College at the University of Electronic Science and Technology of China in 2024.
+I am a Third-year M.S. student in Computer Technology at <a class="institution-link" href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noopener noreferrer" title="Tsinghua University official website">Tsinghua University<span class="institution-logo institution-logo-tsinghua" aria-hidden="true"></span></a>. I am fortunate to be supervised by Prof. [Chun Yuan](https://www.sigs.tsinghua.edu.cn/yc2/main.psp) in the CVML group. Before that, I obtained my Honors Bachelor's degree in Computer Science and Technology from the <a href="https://www.yingcai.uestc.edu.cn/" target="_blank" rel="noopener noreferrer">Yingcai Honors College</a> at the <a class="institution-link" href="https://en.uestc.edu.cn/" target="_blank" rel="noopener noreferrer" title="University of Electronic Science and Technology of China official website">University of Electronic Science and Technology of China<span class="institution-logo institution-logo-uestc" aria-hidden="true"></span></a> in 2024.
 
 My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harness design, multimodal understanding, and model distillation & self-training.
 

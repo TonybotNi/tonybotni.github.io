@@ -992,6 +992,39 @@ a:hover,
     color: var(--accent);
 }
 
+.prose .institution-link {
+    text-decoration-thickness: 1px;
+}
+
+.institution-logo {
+    display: inline-block;
+    width: 1.4em;
+    height: 1.4em;
+    margin-left: 0.22em;
+    vertical-align: -0.34em;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.institution-logo-tsinghua {
+    background-color: #82318e;
+    -webkit-mask: url("/images/institutions/tsinghua-logo.png") left center / auto 100% no-repeat;
+    mask: url("/images/institutions/tsinghua-logo.png") left center / auto 100% no-repeat;
+}
+
+.institution-logo-uestc {
+    background-image: url("/images/institutions/uestc-logo.png");
+}
+
+@media (max-width: 768px) {
+    .institution-logo {
+        width: 1.25em;
+        height: 1.25em;
+        vertical-align: -0.29em;
+    }
+}
+
 .prose code {
     font-family: "JetBrains Mono", monospace;
     font-size: 0.85em;
