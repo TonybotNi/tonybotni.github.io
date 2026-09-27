@@ -26,9 +26,9 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 
 <h2 id="news">✨ News</h2>
 
-* <span style="font-size: smaller;">Aug. 2026: 🎉 One paper on desktop GUI agent benchmark (DeskCraft) was accepted by <a href="https://2026.emnlp.org/">EMNLP-2026</a>.</span>
+* <span style="font-size: smaller;">Sep. 2026: 🚀 We release <a href="https://www.stepfun.com/step-5-preview">Step-5-Preview</a>, a frontier model for complex work and agentic tasks.</span>
+* <span style="font-size: smaller;">Aug. 2026: 🎉 One paper on desktop GUI agent benchmark (DeskCraft) was accepted by <a href="https://2026.emnlp.org/">EMNLP-2026</a> (<strong>Oral</strong>).</span>
 * <span style="font-size: smaller;">Jul. 2026: One paper on an omnimodal progressive reasoning agent for segmentation was submitted to <a href="https://aaai.org/conference/aaai/aaai-27/">AAAI-2027</a>.</span>
-* <span style="font-size: smaller;">Jul. 2026: 🎉 One paper on temporal forgery localization (MG-RWKV) was accepted by <a href="https://eccv.ecva.net/">ECCV-2026</a>.</span>
 
 <span style="font-size: smaller;"><a href="/news">All News →</a></span>
 
@@ -59,7 +59,7 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 
 * [**MG-RWKV: Multi-Grained Context-Aware RWKV for Temporal Forgery Localization**](https://arxiv.org/abs/2607.00902)<br><span class="author-line"><strong>Jingchen Ni</strong>, Cangjin Yu, Dan Jiang, Quan Zhang, Keyu Lv, Shannan Yan, Linyue Pan, Ke Zhang, Chun Yuan.</span><br><span class="tier-tag">THU-A</span>*European Conference on Computer Vision (**ECCV**)*, 2026.
 
-* [**DeskCraft: Benchmarking Desktop Agents on Professional Workflows and Human-in-the-Loop Collaboration**](https://arxiv.org/abs/2606.03103)<br><span class="author-line">Wenkai Wang*, Tao Xiong*, <strong>Jingchen Ni*</strong>, Yunpeng Bao*, Xiyun Li, Tianqi Liu, Hongcan Guo, Zilong Huang, Shengyu Zhang.</span><br><span class="tier-tag">THU-A</span>*Conference on Empirical Methods in Natural Language Processing (**EMNLP**)*, 2026. [[Project Page]](https://mrwwk.github.io/DeskCraft/)
+* [**DeskCraft: Benchmarking Desktop Agents on Professional Workflows and Human-in-the-Loop Collaboration**](https://arxiv.org/abs/2606.03103)<br><span class="author-line">Wenkai Wang*, Tao Xiong*, <strong>Jingchen Ni*</strong>, Yunpeng Bao*, Xiyun Li, Tianqi Liu, Hongcan Guo, Zilong Huang, Shengyu Zhang.</span><br><span class="tier-tag">THU-A</span>*Conference on Empirical Methods in Natural Language Processing (**EMNLP**)*, 2026 (**Oral**). [[Project Page]](https://mrwwk.github.io/DeskCraft/)
 
 * [**FCL-COD: Weakly Supervised Camouflaged Object Detection with Frequency-aware and Contrastive Learning**](https://arxiv.org/abs/2603.22969)<br><span class="author-line"><strong>Jingchen Ni</strong>, Quan Zhang, Dan Jiang, Keyu Lv, Ke Zhang, Chun Yuan.</span><br><span class="tier-tag">CCF-A</span>*IEEE/CVF Conf. on Computer Vision and Pattern Recognition (**CVPR**)*, 2026.
 
