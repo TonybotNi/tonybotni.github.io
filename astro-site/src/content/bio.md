@@ -57,6 +57,8 @@ My research interests include LLM/Agent post-training (SFT/OPD/RL), Agent Harnes
 
 <div class="compact-list">
 
+* [**OPERA: A Unified Omnimodal Progressive Spatio-Temporal Reasoning Agent for Referring Video Segmentation**](https://arxiv.org/abs/2609.33338)<br><span class="author-line"><strong>Jingchen Ni*</strong>, Yuji Wang*, Shannan Yan*, Haoru Li, Sitong Chen, Chun Yuan.</span><br><span class="tier-tag">CCF-A</span>*Submitted to AAAI Conference on Artificial Intelligence (**AAAI**)*, 2027.
+
 * [**MG-RWKV: Multi-Grained Context-Aware RWKV for Temporal Forgery Localization**](https://arxiv.org/abs/2607.00902)<br><span class="author-line"><strong>Jingchen Ni</strong>, Cangjin Yu, Dan Jiang, Quan Zhang, Keyu Lv, Shannan Yan, Linyue Pan, Ke Zhang, Chun Yuan.</span><br><span class="tier-tag">THU-A</span>*European Conference on Computer Vision (**ECCV**)*, 2026.
 
 * [**DeskCraft: Benchmarking Desktop Agents on Professional Workflows and Human-in-the-Loop Collaboration**](https://arxiv.org/abs/2606.03103)<br><span class="author-line">Wenkai Wang*, Tao Xiong*, <strong>Jingchen Ni*</strong>, Yunpeng Bao*, Xiyun Li, Tianqi Liu, Hongcan Guo, Zilong Huang, Shengyu Zhang.</span><br><span class="tier-tag">THU-A</span>*Conference on Empirical Methods in Natural Language Processing (**EMNLP**)*, 2026 (**Oral**). [[Project Page]](https://mrwwk.github.io/DeskCraft/)
